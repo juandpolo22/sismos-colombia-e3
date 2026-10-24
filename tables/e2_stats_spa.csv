@@ -1,0 +1,8 @@
+benchmark,versiones comparadas,estadístico,p SPA (consistente),p Reality Check,p SPA Holm (7),p RC Holm (7)
+Random Forest · AG,4,3.9090574703858425,0.0005,0.0005,0.0015,0.0015
+XGBoost · TPE,4,3.2964019756589735,0.0045,0.0045,0.0045,0.0045
+KNN · TPE,4,6.153849110281537,0.0,0.0,0.0,0.0
+SVR · AG,4,26.70423514450332,0.0,0.0,0.0,0.0
+Árbol de decisión · TPE,4,4.001695025474092,0.0005,0.0005,0.0015,0.0015
+Ridge · Grid,4,17.24742137566495,0.0,0.0,0.0,0.0
+Lasso · Grid,4,17.263996151278118,0.0,0.0,0.0,0.0

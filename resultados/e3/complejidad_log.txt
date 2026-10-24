@@ -1,0 +1,13 @@
+n 2000
+n 4000
+n 8000
+n 16000
+n 29666
+p 4
+p 8
+p 16
+p 31
+combinador A (L-BFGS) vs n: exponente empírico 0.65
+árbol CART (con orden reutilizado) vs n: exponente empírico 1.13
+árbol CART (con orden reutilizado) vs p: exponente empírico 1.02
+árbol CART (sin orden previo) vs n: exponente empírico 1.14

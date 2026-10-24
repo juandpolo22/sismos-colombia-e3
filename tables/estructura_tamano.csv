@@ -1,0 +1,15 @@
+medida,valor
+"Nivel catálogo: filas (sismos, meses completos)",40.365
+Nivel catálogo: tipo,proceso puntual espacio-temporal irregular
+Nivel panel: unidad de observación,"celda activa de 0,5° × mes"
+Nivel panel: tipo,panel espacio-temporal (longitudinal por celda) — ruta D
+Filas del panel (n),42.380
+Predictoras del modelo base (p),18
+Relación n/p,2.354
+Entidades independientes: celdas activas,163
+Entidades: meses objetivo,260
+Departamentos con sismos,35
+Rango del objetivo (todo el panel),0 a 713
+Rango del objetivo (entrenamiento),0 a 148
+Media / mediana del objetivo (entrenamiento),"0,81 / 0"
+"Filas duplicadas (celda, mes)",0

@@ -1,0 +1,19 @@
+{
+ "metodo": "Bayesiano (TPE, Optuna)",
+ "evaluaciones": 15,
+ "datos": "panel con corte 2016 (meses objetivo < 2016)",
+ "validacion": "3 pliegues temporales internos",
+ "actual": {
+  "lr": 0.08,
+  "depth": 3,
+  "min_leaf": 50
+ },
+ "rmsle_actual": 0.39839323968163437,
+ "mejor": {
+  "lr": 0.05514718587869894,
+  "depth": 6,
+  "min_leaf": 119
+ },
+ "rmsle_mejor": 0.39310520745182065,
+ "decision": "la mejor B sola en la validación < 2016 es la optimizada; la decisión final sobre A+B se toma en scripts/comparar_B_validacion.py"
+}

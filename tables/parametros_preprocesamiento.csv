@@ -1,0 +1,3 @@
+parametro,valor
+imputacion_magnitud,constante
+variables,n_1m;n_3m;n_6m;n_12m;n35_3m;n35_12m;mag_media_3m;mag_media_12m;mag_max_3m;mag_max_12m;prof_media_hist;vec_1m;vec_3m;n_mismo_mes_anio_prev;sen_mes;cos_mes;lat;lon

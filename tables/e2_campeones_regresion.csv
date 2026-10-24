@@ -1,0 +1,8 @@
+puesto,modelo,combinación,métrica externa,t_total_min,hiperparámetros finales
+1,XGBoost,Random,0.3175 ± 0.0264,2.098447886666667,"{""n_estimators"": 421, ""max_depth"": 4, ""learning_rate"": 0.0136, ""subsample"": 0.8245, ""colsample_bytree"": 0.7718, ""min_child_weight"": 14.9151}"
+2,Random Forest,Random,0.3185 ± 0.0249,55.88829164833333,"{""n_estimators"": 248, ""max_depth"": 7, ""min_samples_leaf"": 3, ""max_features"": 0.3413}"
+3,KNN,Random,0.3234 ± 0.0251,1.1510350983333335,"{""n_neighbors"": 75, ""weights"": ""uniform""}"
+4,Árbol de decisión,Grid,0.3263 ± 0.0266,0.19747970499999307,"{""max_depth"": 8, ""min_samples_leaf"": 5}"
+5,SVR,Bayesiano (TPE),0.3327 ± 0.0257,2.979039676666669,"{""C"": 0.2919, ""epsilon"": 0.1635, ""gamma"": 0.0029}"
+6,Ridge,Genético (DEAP),0.3341 ± 0.0251,0.08833136499999909,"{""alpha"": 0.001}"
+7,Lasso,Genético (DEAP),0.3341 ± 0.0251,0.13996680499999456,"{""alpha"": 0.0}"

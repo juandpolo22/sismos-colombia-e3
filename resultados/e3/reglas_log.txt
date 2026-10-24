@@ -1,0 +1,11 @@
+                                       regla  RMSLE 2021–2026  dif. pérdida vs A+B    p DM  p Holm
+                      stacking lineal (NNLS)          0.32572             -0.00018 0.53379 1.00000
+                       A+B v2 (regla propia)          0.32597              0.00000     NaN     NaN
+        stacking lineal (NNLS) + calibración          0.32598              0.00000 0.99801 1.00000
+                           A sin calibración          0.32632              0.00021 0.31848 0.95545
+      mejor miembro individual + calibración          0.32692              0.00064 0.00180 0.00721
+                    mejor miembro individual          0.32727              0.00085 0.00013 0.00063
+pesos por error global (1/ECM) + calibración          0.32794              0.00127 0.00004 0.00025
+              pesos por error global (1/ECM)          0.32885              0.00185 0.00008 0.00050
+               promedio simple + calibración          0.32907              0.00201 0.00000 0.00000
+                             promedio simple          0.32969              0.00240 0.00000 0.00004

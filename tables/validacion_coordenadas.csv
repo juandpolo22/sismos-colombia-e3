@@ -1,0 +1,10 @@
+chequeo,resultado
+Sistema de referencia,"geográficas WGS84 (EPSG:4326), según los portales del SGC"
+"Latitud en [-90, 90] / longitud en [-180, 180]",sí (100 %)
+Rango observado de latitud,"-2,65 a 13,67"
+Rango observado de longitud,"-81,97 a -70,15"
+"Coordenadas nulas o (0, 0)",0
+Lat/lon invertidas (lat fuera de -5..14 con lon dentro de ese rango),0
+Fuera del área de estudio,0
+"Precisión (decimales de latitud, mediana)",3 decimales (≈ 111 m)
+Sismos con coordenadas exactamente repetidas,"4877 (16,6 %)"

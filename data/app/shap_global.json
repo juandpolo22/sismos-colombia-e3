@@ -1,0 +1,183 @@
+{
+ "A+B v2": {
+  "tipo": "aporte de cada miembro (c1·w·f), escala log1p",
+  "valores": {
+   "B: boosting ZINB (propio)": 0.07586,
+   "Random Forest (Genético (DEAP))": 0.05538,
+   "XGBoost (Genético (DEAP))": 0.04595,
+   "Persistencia": 0.01189,
+   "calibración (c0)": 0.00885,
+   "Ingenuo estacional": 0.00732,
+   "XGBoost (Random)": 0.00031,
+   "Random Forest (Bayesiano (TPE))": 0.00018,
+   "XGBoost (Bayesiano (TPE))": 0.0001,
+   "Random Forest (Random)": 0.0,
+   "Ridge (Grid)": 0.0,
+   "XGBoost (Grid)": 0.0,
+   "Núcleo ZINB (propio)": 0.0,
+   "Random Forest (Grid)": 0.0,
+   "KNN (Bayesiano (TPE))": 0.0
+  }
+ },
+ "Random Forest · AG": {
+  "tipo": "SHAP (escala log1p)",
+  "valores": {
+   "n_12m": 0.07507,
+   "n_6m": 0.03185,
+   "n_3m": 0.01724,
+   "vec_3m": 0.01526,
+   "prof_media_hist": 0.00994,
+   "n_1m": 0.00891,
+   "mag_max_12m": 0.00549,
+   "lon": 0.00349,
+   "vec_1m": 0.00344,
+   "mag_media_12m": 0.00319,
+   "n35_3m": 0.00303,
+   "n_mismo_mes_anio_prev": 0.00203,
+   "mag_media_3m": 0.00189,
+   "n35_12m": 0.00144,
+   "lat": 0.00111,
+   "mag_max_3m": 0.00108,
+   "sen_mes": 0.00033,
+   "cos_mes": 0.00026
+  }
+ },
+ "XGBoost · TPE": {
+  "tipo": "SHAP (escala log1p)",
+  "valores": {
+   "n_12m": 0.07535000145435333,
+   "n_6m": 0.02273000031709671,
+   "vec_3m": 0.016769999638199806,
+   "n_3m": 0.016370000317692757,
+   "prof_media_hist": 0.013159999623894691,
+   "n_1m": 0.012880000285804272,
+   "lon": 0.007120000198483467,
+   "n35_3m": 0.0038799999747425318,
+   "vec_1m": 0.003759999992325902,
+   "lat": 0.003229999914765358,
+   "mag_max_3m": 0.0029700000304728746,
+   "n_mismo_mes_anio_prev": 0.002259999979287386,
+   "mag_max_12m": 0.0016599999507889152,
+   "mag_media_12m": 0.0015800000401213765,
+   "n35_12m": 0.0013800000306218863,
+   "cos_mes": 0.0004799999878741801,
+   "sen_mes": 0.0003499999875202775,
+   "mag_media_3m": 0.00026000000070780516
+  }
+ },
+ "KNN · TPE": {
+  "tipo": "SHAP (escala log1p)",
+  "valores": {
+   "n_12m": 0.0313,
+   "n_6m": 0.02493,
+   "vec_3m": 0.0225,
+   "prof_media_hist": 0.02154,
+   "lon": 0.0196,
+   "lat": 0.01913,
+   "mag_max_12m": 0.01775,
+   "n_3m": 0.01748,
+   "mag_media_12m": 0.01613,
+   "sen_mes": 0.01491,
+   "cos_mes": 0.01491,
+   "vec_1m": 0.01404,
+   "n_mismo_mes_anio_prev": 0.01317,
+   "n_1m": 0.0127,
+   "mag_max_3m": 0.0106,
+   "n35_12m": 0.01057,
+   "mag_media_3m": 0.01049,
+   "n35_3m": 0.00252
+  }
+ },
+ "SVR · AG": {
+  "tipo": "SHAP (escala log1p)",
+  "valores": {
+   "n_12m": 0.0151,
+   "mag_max_3m": 0.01448,
+   "mag_media_3m": 0.01153,
+   "n_6m": 0.01073,
+   "n_3m": 0.00939,
+   "n_1m": 0.00896,
+   "prof_media_hist": 0.00678,
+   "n35_12m": 0.00622,
+   "mag_max_12m": 0.00621,
+   "vec_1m": 0.00492,
+   "n_mismo_mes_anio_prev": 0.00419,
+   "cos_mes": 0.00208,
+   "n35_3m": 0.0019,
+   "mag_media_12m": 0.00153,
+   "sen_mes": 0.0014,
+   "vec_3m": 0.00114,
+   "lon": 0.0011,
+   "lat": 0.0007
+  }
+ },
+ "Árbol de decisión · TPE": {
+  "tipo": "SHAP (escala log1p)",
+  "valores": {
+   "n_12m": 0.1189,
+   "n_3m": 0.02972,
+   "vec_3m": 0.01859,
+   "prof_media_hist": 0.01556,
+   "n_6m": 0.00592,
+   "lon": 0.00465,
+   "lat": 0.00161,
+   "vec_1m": 0.00074,
+   "n_1m": 0.00048,
+   "n_mismo_mes_anio_prev": 0.0004,
+   "mag_max_12m": 0.00031,
+   "n35_12m": 9e-05,
+   "n35_3m": 2e-05,
+   "mag_media_3m": 0.0,
+   "mag_media_12m": 0.0,
+   "mag_max_3m": 0.0,
+   "sen_mes": 0.0,
+   "cos_mes": 0.0
+  }
+ },
+ "Ridge · Grid": {
+  "tipo": "SHAP (escala log1p)",
+  "valores": {
+   "n_12m": 0.04751,
+   "n35_12m": 0.04225,
+   "mag_max_12m": 0.04158,
+   "n_6m": 0.03828,
+   "n_mismo_mes_anio_prev": 0.03702,
+   "n_1m": 0.03635,
+   "n_3m": 0.03627,
+   "mag_media_3m": 0.03533,
+   "n35_3m": 0.03002,
+   "prof_media_hist": 0.01871,
+   "mag_max_3m": 0.01637,
+   "vec_3m": 0.0077,
+   "lat": 0.00637,
+   "lon": 0.00547,
+   "mag_media_12m": 0.00372,
+   "cos_mes": 0.0017,
+   "vec_1m": 0.00124,
+   "sen_mes": 0.00026
+  }
+ },
+ "Lasso · Grid": {
+  "tipo": "SHAP (escala log1p)",
+  "valores": {
+   "n_12m": 0.04748,
+   "n35_12m": 0.04222,
+   "mag_max_12m": 0.0415,
+   "n_6m": 0.03828,
+   "n_mismo_mes_anio_prev": 0.03703,
+   "n_1m": 0.03635,
+   "n_3m": 0.03625,
+   "mag_media_3m": 0.03535,
+   "n35_3m": 0.03001,
+   "prof_media_hist": 0.01871,
+   "mag_max_3m": 0.01634,
+   "vec_3m": 0.00762,
+   "lat": 0.00635,
+   "lon": 0.00546,
+   "mag_media_12m": 0.00367,
+   "cos_mes": 0.00169,
+   "vec_1m": 0.00116,
+   "sen_mes": 0.00025
+  }
+ }
+}

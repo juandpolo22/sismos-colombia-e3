@@ -1,0 +1,6 @@
+19:18:36 2021: A+B 0.3149 (c1 = 1.068; dif. máx. con la corrida previa 0.00e+00), A sin B 0.3156 (481 s)
+19:19:19 2022: A+B 0.3039 (c1 = 1.063; dif. máx. con la corrida previa 0.00e+00), A sin B 0.3042 (525 s)
+19:27:38 2023: A+B 0.3266 (c1 = 1.056; dif. máx. con la corrida previa 0.00e+00), A sin B 0.3272 (542 s)
+19:29:06 2024: A+B 0.3255 (c1 = 1.071; dif. máx. con la corrida previa 0.00e+00), A sin B 0.3268 (586 s)
+19:38:33 2025: A+B 0.3074 (c1 = 1.069; dif. máx. con la corrida previa 0.00e+00), A sin B 0.3082 (655 s)
+19:40:50 2026: A+B 0.3829 (c1 = 1.054; dif. máx. con la corrida previa 0.00e+00), A sin B 0.3834 (705 s)

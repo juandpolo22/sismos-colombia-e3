@@ -1,0 +1,26 @@
+funcion,llamadas,t_propio_s,t_acumulado_s
+_classes.py:231(_fit),450,19.248749778,19.872606437
+_dispatcher.py:185(compute),3,0.215021552,0.21602543700000001
+_classes.py:1017(predict_proba),450,0.11261604800000001,0.11975257800000001
+arraysetops.py:323(_unique1d),951,0.099101452,0.2331911
+validation.py:1411(check_random_state),1356,0.088472464,0.19330138700000002
+~:0(<method 'randint' of 'numpy.random.mtrand.RandomState' objects>),903,0.083143769,0.097454592
+_forest.py:154(_parallel_build_trees),450,0.067260331,20.166278582
+~:0(<function SeedSequence.generate_state at 0x7fb5111c0ca0>),906,0.06396568200000001,0.06396568200000001
+~:0(<method 'cumsum' of 'numpy.ndarray' objects>),462,0.061283231,0.061283231
+~:0(<method 'reduce' of 'numpy.ufunc' objects>),2752,0.044680582,0.044680582
+~:0(<method 'argsort' of 'numpy.ndarray' objects>),462,0.039727763,0.039727763
+inspect.py:2152(_signature_from_function),2529,0.038640588000000003,0.12469232400000001
+multiclass.py:226(type_of_target),471,0.034748773000000004,0.172278867
+inspect.py:2498(__init__),32672,0.030608493,0.053502461
+validation.py:718(check_array),1503,0.025018398,0.19861277200000002
+~:0(<method 'astype' of 'numpy.ndarray' objects>),804,0.021720906,0.021720906
+numeric.py:136(ones),450,0.018146517,0.022470577000000002
+~:0(<built-in method builtins.isinstance>),95378,0.017315558,0.034561075000000004
+~:0(<method 'sort' of 'numpy.ndarray' objects>),501,0.017202137000000003,0.017202137000000003
+~:0(<built-in method builtins.hasattr>),69182,0.017068629000000002,0.039525425
+~:0(<built-in method builtins.getattr>),77329,0.015412736000000002,0.017178648
+~:0(<method 'flatten' of 'numpy.ndarray' objects>),951,0.013902839,0.013902839
+base.py:196(_get_param_names),2391,0.012974611,0.181453639
+base.py:210(<listcomp>),2391,0.012667737,0.018008176
+_config.py:57(set_config),2008,0.012542036000000001,0.018226655

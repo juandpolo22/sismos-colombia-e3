@@ -1,0 +1,29 @@
+Afinando hiperparámetros con datos < 2016...
+  XGBoost: {'n_estimators': 527, 'max_depth': 3, 'learning_rate': 0.012193270794813886, 'subsample': 0.6406919460109983, 'colsample_bytree': 0.6467968788833418, 'min_child_weight': 13.322210879516291} (RMSLE CV 0.3866)
+  Random Forest: {'n_estimators': 206, 'max_depth': 7, 'min_samples_leaf': 6, 'max_features': 0.23504301262978303} (RMSLE CV 0.3861)
+  KNN: {'n_neighbors': 83, 'weights': 'distance'} (RMSLE CV 0.3941)
+  Ridge: {'alpha': 0.004562905088129698} (RMSLE CV 0.4012)
+20:25:43 2016: 1728 filas, RMSLE A+B 0.3637 | XGB 0.3651 | RF 0.3633 (354 s)
+20:26:28 2017: 1776 filas, RMSLE A+B 0.3462 | XGB 0.3468 | RF 0.3464 (399 s)
+20:33:06 2018: 1884 filas, RMSLE A+B 0.3336 | XGB 0.3340 | RF 0.3344 (444 s)
+Afinando hiperparámetros con datos < 2016...
+20:34:30 2016: ya existía
+20:34:30 2017: ya existía
+20:34:30 2018: ya existía
+Afinando hiperparámetros con datos < 2016...
+20:58:05 2016: ya existía
+20:58:05 2017: ya existía
+20:58:05 2018: ya existía
+21:06:16 2019: 1932 filas, RMSLE A+B 0.3190 | XGB 0.3183 | RF 0.3202 (491 s)
+21:07:02 2020: 1932 filas, RMSLE A+B 0.2972 | XGB 0.2985 | RF 0.3019 (537 s)
+21:15:57 2021: 1956 filas, RMSLE A+B 0.3141 | XGB 0.3150 | RF 0.3167 (581 s)
+21:17:31 2022: 1980 filas, RMSLE A+B 0.3036 | XGB 0.3040 | RF 0.3059 (629 s)
+21:27:04 2023: 2004 filas, RMSLE A+B 0.3271 | XGB 0.3283 | RF 0.3307 (667 s)
+21:29:24 2024: 2040 filas, RMSLE A+B 0.3271 | XGB 0.3275 | RF 0.3275 (713 s)
+21:40:05 2025: 2136 filas, RMSLE A+B 0.3078 | XGB 0.3092 | RF 0.3110 (780 s)
+21:43:10 2026: 1638 filas, RMSLE A+B 0.3818 | XGB 0.3849 | RF 0.3883 (827 s)
+
+         rival  RMSLE_rival  RMSLE_AB  dif_media  DM_HLN      p   T  p_Holm
+      XGBoost       0.3295    0.3286     0.0006  3.1745 0.0019 129  0.0019
+Random_Forest       0.3308    0.3286     0.0014  4.1864 0.0001 129  0.0001 
+Total 45.1 min

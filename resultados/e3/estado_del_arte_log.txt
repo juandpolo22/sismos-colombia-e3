@@ -1,0 +1,13 @@
+06:57:30 LightGBM: ya existía
+06:59:57 CatBoost: RMSLE CV 0.3864 (147 s)
+06:59:57 HGB Poisson: RMSLE CV 0.4024 (48 s)
+07:00:06 2021: listo (9 s)
+07:00:07 2022: listo (10 s)
+07:00:17 2023: listo (10 s)
+07:00:17 2024: listo (10 s)
+07:00:28 2025: listo (12 s)
+07:00:29 2026: listo (12 s)
+     método  RMSLE rival  RMSLE A+B  dif. pérdida (rival − A+B)    p DM  d de Cohen  p Holm (3)                    veredicto
+   LightGBM      0.32636    0.32597                     0.00025 0.25488     0.10413     0.25488 sin diferencia significativa
+   CatBoost      0.32778    0.32597                     0.00113 0.12346     0.17952     0.24693 sin diferencia significativa
+HGB Poisson      0.33823    0.32597                     0.00815 0.00000     0.94063     0.00000                    A+B mejor

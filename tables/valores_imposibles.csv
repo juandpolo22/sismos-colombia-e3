@@ -1,0 +1,15 @@
+chequeo,registros
+"latitud fuera de [-90, 90]",0
+"longitud fuera de [-180, 180]",0
+"coordenadas (0, 0)",0
+lat/lon posiblemente invertidas (lat < -10 o lon > -60),0
+"fuera del área de estudio (-5.0..14.0, -82.0..-66.0)",0
+"magnitud fuera de [-1, 10]",0
+profundidad negativa (sobre el nivel del mar),241
+profundidad exactamente 0 km (profundidad fijada),2074
+profundidad > 700 km (imposible físicamente),0
+errores de localización negativos,0
+"errores de localización = 99,9 km (tope del localizador)",26
+"gap azimutal fuera de [0, 360]",0
+fechas futuras (> fecha de descarga),0
+nombres de departamento con variantes de escritura,0

@@ -1,0 +1,5 @@
+  B {'lr': 0.05514718587869894, 'depth': 6, 'min_leaf': 119}: predicciones fuera de pliegue listas [412 s]
+                       rival  RMSLE rival  RMSLE A+B con B optimizada  dif. pérdida (rival − nuevo)    p DM  nuevo mejor y significativo
+A+B actual (B 0,08 · 3 · 50)      0.31435                     0.31514                      -0.00050 0.00277                        False
+                XGBoost · AG      0.31425                     0.31514                      -0.00056 0.26283                        False
+DECISIÓN: conservar la B actual [415 s]

@@ -1,0 +1,14 @@
+variable,qué contiene,¿disponible al cierre de t?,decisión
+"n_1m, n_3m, n_6m, n_12m",sismos de la celda en ventanas que terminan en t,sí,conservada
+"n35_3m, n35_12m","sismos M ≥ 3,5 en ventanas que terminan en t",sí,conservada
+"mag_media_*, mag_max_*",magnitudes de los sismos de la ventana (hasta t),sí,conservada
+prof_media_hist,profundidad media desde 2004 hasta t,sí,en observación (acumulativa: deriva lenta)
+"vec_1m, vec_3m","sismos de las 8 celdas vecinas hasta t (mismo mes, nunca t+1)",sí,conservada
+n_mismo_mes_anio_prev,sismos de la celda en t−11 (mismo mes del año anterior que t+1),sí,conservada
+"sen_mes, cos_mes",mes calendario de t+1 (conocido de antemano),sí,conservada
+"lat, lon",centro de la celda (identificador espacial),sí,"en observación: válidas para pronosticar en las mismas celdas, no para zonas nuevas"
+depto,departamento del sismo,solo para eventos ya ocurridos,descartada (no se usa como predictora)
+sismos del mes t+1 (cualquier resumen),es el objetivo o parte de él,NO,descartada: fuga directa
+sismos del mes t+1 en celdas vecinas,ocurren en el mismo mes que el objetivo,NO,descartada: fuga espacio-temporal
+estado / errores de localización del sismo,se conocen después de revisar el sismo (días o semanas),no siempre a tiempo,descartadas (solo calidad)
+selección de celdas activas,≥ 20 sismos ANTES del corte de prueba,sí,decisión tomada solo con entrenamiento

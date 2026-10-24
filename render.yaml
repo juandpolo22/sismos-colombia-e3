@@ -1,0 +1,11 @@
+# Configuración de despliegue en Render (Blueprint). Render instala requirements.txt y arranca gunicorn.
+services:
+  - type: web                                   # aplicación web
+    name: sismos-colombia-dash                  # nombre del servicio en Render
+    runtime: python                             # entorno de ejecución
+    plan: free                                  # plan gratuito
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:server --workers 1 --threads 2 --timeout 120 --preload
+    envVars:
+      - key: PYTHON_VERSION                     # misma versión con la que se entrenaron y serializaron los modelos
+        value: 3.9.25

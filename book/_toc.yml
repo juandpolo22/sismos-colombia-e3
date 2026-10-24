@@ -1,0 +1,38 @@
+# Estructura mínima de la guía del Entregable 3 (capítulos 0 a 9). Las secciones *_e2 son los capítulos del
+# Entregable 2, ejecutados con el modelo final.
+format: jb-book
+root: notebooks/00_introduccion
+chapters:
+- file: notebooks/01_correcciones
+- file: notebooks/02_datos
+  sections:
+  - file: notebooks_e2/02_datos
+  - file: notebooks_e2/03_eda_objetivo
+  - file: notebooks_e2/04_eda_univariado
+  - file: notebooks_e2/05_eda_bivariado
+  - file: notebooks_e2/06_eda_multivariado
+  - file: notebooks_e2/07_eda_temporal
+  - file: notebooks_e2/08_eda_espacial
+  - file: notebooks_e2/09_data_leakage
+- file: notebooks/03_benchmarks
+  sections:
+  - file: notebooks_e2/10_preprocesamiento
+  - file: notebooks_e2/11_modelo_base
+  - file: notebooks_e2/13_diseno_experimental
+  - file: notebooks_e2/14_optimizacion_hiperparametros
+  - file: notebooks_e2/15_multifidelidad
+  - file: notebooks_e2/16_optimizacion_computacional
+  - file: notebooks_e2/17_evaluacion_clasificacion
+  - file: notebooks_e2/18_evaluacion_regresion
+  - file: notebooks_e2/19_interpretabilidad
+  - file: notebooks_e2/20_robustez
+- file: notebooks/04_literatura
+- file: notebooks/05_modelo_original
+  sections:
+  - file: notebooks_e2/22_modelo_propuesto
+- file: notebooks/06_validacion
+  sections:
+  - file: notebooks_e2/21_comparacion_estadistica
+- file: notebooks/07_dashboard
+- file: notebooks/08_conclusiones
+- file: notebooks/09_reproducibilidad

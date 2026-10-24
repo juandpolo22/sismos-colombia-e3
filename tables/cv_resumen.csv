@@ -1,0 +1,19 @@
+esquema,modelo,RMSLE_media,RMSLE_desv
+temporal (ventana creciente + gap),Dummy (media),0.6405849622529024,0.008165874923580707
+temporal (ventana creciente + gap),Dummy (mediana = 0),0.5510532589535476,0.03353244053390979
+temporal (ventana creciente + gap),Media por celda,0.42490828424691085,0.03348532037355471
+temporal (ventana creciente + gap),Persistencia,0.47183599912814334,0.0410037465336079
+temporal (ventana creciente + gap),Ingenuo estacional,0.4953107753872503,0.04383104479669356
+temporal (ventana creciente + gap),SVR lineal,0.3771344699642241,0.030830283635511282
+bloques espaciales 2° + buffer,Dummy (media),0.6557759840832931,0.13264154229741887
+bloques espaciales 2° + buffer,Dummy (mediana = 0),0.5270661020751866,0.1951527884970523
+bloques espaciales 2° + buffer,Media por celda,0.6557759840832931,0.13264154229741887
+bloques espaciales 2° + buffer,Persistencia,0.4703739510642689,0.015481482531266192
+bloques espaciales 2° + buffer,Ingenuo estacional,0.500473434647021,0.01770693426817564
+bloques espaciales 2° + buffer,SVR lineal,0.4841410358532524,0.19840115034494366
+"aleatoria (KFold, optimista)",Dummy (media),0.6307477993145223,0.007142678583506311
+"aleatoria (KFold, optimista)",Dummy (mediana = 0),0.5632916290649198,0.019041970342839415
+"aleatoria (KFold, optimista)",Media por celda,0.3963692249700668,0.004343847899036006
+"aleatoria (KFold, optimista)",Persistencia,0.47071165974252294,0.004367543150935709
+"aleatoria (KFold, optimista)",Ingenuo estacional,0.5008950752906822,0.007402124270940002
+"aleatoria (KFold, optimista)",SVR lineal,0.37871600382157644,0.005065577705656353

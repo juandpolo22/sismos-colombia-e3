@@ -1,0 +1,31 @@
+# Jupyter Book del Entregable 3: pronóstico mensual de sismos por celda en Colombia
+title: Pronóstico mensual de sismos por celda en Colombia
+author: Juan David Polo y Gabriella Pallares
+copyright: "2026"
+only_build_toc_files: true
+
+# Los notebooks se entregan ya ejecutados («off» construye el libro en segundos con sus salidas).
+# Para regenerarlos desde los datos: python herramientas/construir_notebooks.py (y --e2 para los del Entregable 2).
+execute:
+  execute_notebooks: "off"
+  timeout: -1
+  allow_errors: false
+
+bibtex_bibfiles:
+  - references.bib
+
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - amsmath
+
+sphinx:
+  config:
+    bibtex_reference_style: author_year
+    html_show_copyright: false
+    math_numfig: true
+    numfig: true
+
+html:
+  use_issues_button: false
+  use_repository_button: false

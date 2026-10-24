@@ -1,0 +1,22 @@
+# %% tags=["hide-input"]
+# Localiza la raíz del proyecto (la carpeta con src/ y app.py) para poder importar los módulos de src/
+import sys
+from pathlib import Path
+raiz = Path.cwd().resolve()
+while not ((raiz / "src").is_dir() and (raiz / "app.py").exists()):
+    raiz = raiz.parent
+sys.path.insert(0, str(raiz))
+# Librerías de análisis y módulos propios: configuración, datos, EDA, evaluación y utilidades del libro
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
+from src import config as cfg, datos, eda, evaluacion as ev
+from src.libro import md, tabla, mostrar_plotly
+from src.eda import es, p_fmt
+# Estilo común de los gráficos, semilla global (SEMILLA = 42) y formato de las tablas
+eda.configurar_graficos()
+cfg.fijar_semillas()
+pd.set_option("display.width", 160)
+pd.set_option("display.max_columns", 40)

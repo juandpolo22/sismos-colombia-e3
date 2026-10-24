@@ -1,0 +1,1 @@
+23 combinaciones pendientes; 2 trabajadores (backend loky, 1 hilo por modelo)

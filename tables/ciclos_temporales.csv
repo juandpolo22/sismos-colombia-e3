@@ -1,0 +1,4 @@
+ciclo,prueba,estadístico,p,efecto,p_Holm
+hora local,χ² uniformidad,29.064770985867533,0.17817199811889922,"razón noche (0–6 h) / esperado = 1,00",0.5345159943566977
+día de la semana,Kruskal-Wallis (sismos diarios),2.680512713080941,0.8477436363373408,"ε² = 0,0004",1.0
+mes calendario,Kruskal-Wallis (sismos mensuales),5.31108369089707,0.9151701003789305,"ε² = 0,026",1.0

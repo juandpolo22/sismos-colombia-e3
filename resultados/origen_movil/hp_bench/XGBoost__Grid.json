@@ -1,0 +1,11 @@
+{
+  "params": {
+    "n_estimators": 600,
+    "max_depth": 2,
+    "learning_rate": 0.01,
+    "subsample": 0.75,
+    "colsample_bytree": 0.75,
+    "min_child_weight": 7.0710678118654755
+  },
+  "RMSLE_CV": 0.38747593859602114
+}

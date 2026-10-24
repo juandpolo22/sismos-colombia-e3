@@ -1,0 +1,5 @@
+relación,prueba,estadístico,p,efecto,tamaño,p_Holm
+y ~ mes calendario,Kruskal-Wallis,14.095530423145357,0.22775239917608722,ε²,0.00045514967945834084,0.22775239917608722
+y ~ celda activa el mes previo,Mann-Whitney,107486789.5,0.0,r biserial,0.23816110731102524,0.0
+mag ~ departamento (15 con ≥ 200 sismos),Kruskal-Wallis,148.72506397862637,1.2928582656739849e-24,ε²,0.005235507585405934,2.5857165313479697e-24
+depth ~ departamento (15 con ≥ 200 sismos),Kruskal-Wallis,17789.124493830983,0.0,ε²,0.6262232722156856,0.0

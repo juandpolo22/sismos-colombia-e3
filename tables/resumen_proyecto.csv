@@ -1,0 +1,10 @@
+medida,valor
+"Sismos en el catálogo limpio (M ≥ 2,5, 2004-01 a 2026-09)",40.365
+Celdas activas (≥ 20 sismos antes del corte),163
+Meses objetivo,260
+Filas del panel celda × mes,42.380
+Predictoras del modelo base,18
+Entrenamiento (meses objetivo),2005-02 a 2020-11 · 30.970 filas
+Gap (mes excluido),2020-12 · 163 filas
+Prueba (meses objetivo),2021-01 a 2026-09 · 11.247 filas
+Proporción de ceros del objetivo (entrenamiento),"76,3 %"

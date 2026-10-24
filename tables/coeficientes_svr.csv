@@ -1,0 +1,19 @@
+variable,coef,bloque
+n_1m,0.055500962232313863,conteos propios
+n_3m,0.04511431396931719,conteos propios
+n_6m,0.03855570245693709,conteos propios
+n_12m,0.03210133070210884,conteos propios
+n35_3m,0.14824201302359702,"conteos M ≥ 3,5"
+n35_12m,0.07882659979936127,"conteos M ≥ 3,5"
+vec_1m,0.006463026667412117,vecindad
+vec_3m,-0.0017100403706540926,vecindad
+n_mismo_mes_anio_prev,0.05719218176217491,conteos propios
+mag_media_3m,-0.11019993186224726,magnitudes
+mag_media_12m,0.017294422191706776,magnitudes
+mag_max_3m,0.038641088768023996,magnitudes
+mag_max_12m,-0.07907946644348003,magnitudes
+prof_media_hist,0.030308299542320335,profundidad
+sen_mes,0.001892934765474355,calendario
+cos_mes,-0.0009424473425629563,calendario
+lat,-0.009081093949519248,ubicación
+lon,0.005850414150474251,ubicación

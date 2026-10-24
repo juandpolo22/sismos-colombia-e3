@@ -1,0 +1,167 @@
+tarea,modelo,balanceo,optimizador,fase,ajustes
+regresión,KNN,—,Grid,completa (validación anidada),184
+regresión,KNN,—,Random,completa (validación anidada),184
+regresión,KNN,—,Bayesiano (TPE),completa (validación anidada),184
+regresión,KNN,—,Genético (DEAP),completa (validación anidada),184
+regresión,Ridge,—,Grid,completa (validación anidada),184
+regresión,Ridge,—,Random,completa (validación anidada),184
+regresión,Ridge,—,Bayesiano (TPE),completa (validación anidada),184
+regresión,Ridge,—,Genético (DEAP),completa (validación anidada),184
+regresión,Lasso,—,Grid,completa (validación anidada),184
+regresión,Lasso,—,Random,completa (validación anidada),184
+regresión,Lasso,—,Bayesiano (TPE),completa (validación anidada),184
+regresión,Lasso,—,Genético (DEAP),completa (validación anidada),184
+regresión,Árbol de decisión,—,Grid,completa (validación anidada),184
+regresión,Árbol de decisión,—,Random,completa (validación anidada),184
+regresión,Árbol de decisión,—,Bayesiano (TPE),completa (validación anidada),184
+regresión,Árbol de decisión,—,Genético (DEAP),completa (validación anidada),184
+regresión,Random Forest,—,Grid,completa (validación anidada),184
+regresión,Random Forest,—,Random,completa (validación anidada),184
+regresión,Random Forest,—,Bayesiano (TPE),completa (validación anidada),184
+regresión,Random Forest,—,Genético (DEAP),completa (validación anidada),184
+regresión,XGBoost,—,Grid,completa (validación anidada),184
+regresión,XGBoost,—,Random,completa (validación anidada),184
+regresión,XGBoost,—,Bayesiano (TPE),completa (validación anidada),184
+regresión,XGBoost,—,Genético (DEAP),completa (validación anidada),184
+regresión,SVR,—,Grid,completa (validación anidada),184
+regresión,SVR,—,Random,completa (validación anidada),184
+regresión,SVR,—,Bayesiano (TPE),completa (validación anidada),184
+regresión,SVR,—,Genético (DEAP),completa (validación anidada),184
+clasificación,KNN,sin balanceo,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,KNN,sin balanceo,Grid,fase 2 si pasa el tamizaje,184
+clasificación,KNN,sin balanceo,Random,fase 2 si pasa el tamizaje,184
+clasificación,KNN,sin balanceo,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,KNN,sin balanceo,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,KNN,SMOTE,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,KNN,SMOTE,Grid,fase 2 si pasa el tamizaje,184
+clasificación,KNN,SMOTE,Random,fase 2 si pasa el tamizaje,184
+clasificación,KNN,SMOTE,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,KNN,SMOTE,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,KNN,ADASYN,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,KNN,ADASYN,Grid,fase 2 si pasa el tamizaje,184
+clasificación,KNN,ADASYN,Random,fase 2 si pasa el tamizaje,184
+clasificación,KNN,ADASYN,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,KNN,ADASYN,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,KNN,class_weight,Grid,no se corre: equivalencia demostrada (13.6),0
+clasificación,KNN,class_weight,Random,no se corre: equivalencia demostrada (13.6),0
+clasificación,KNN,class_weight,Bayesiano (TPE),no se corre: equivalencia demostrada (13.6),0
+clasificación,KNN,class_weight,Genético (DEAP),no se corre: equivalencia demostrada (13.6),0
+clasificación,Naive Bayes,sin balanceo,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Naive Bayes,sin balanceo,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Naive Bayes,sin balanceo,Random,fase 2 si pasa el tamizaje,184
+clasificación,Naive Bayes,sin balanceo,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Naive Bayes,sin balanceo,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Naive Bayes,SMOTE,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Naive Bayes,SMOTE,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Naive Bayes,SMOTE,Random,fase 2 si pasa el tamizaje,184
+clasificación,Naive Bayes,SMOTE,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Naive Bayes,SMOTE,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Naive Bayes,ADASYN,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Naive Bayes,ADASYN,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Naive Bayes,ADASYN,Random,fase 2 si pasa el tamizaje,184
+clasificación,Naive Bayes,ADASYN,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Naive Bayes,ADASYN,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Naive Bayes,class_weight,Grid,no se corre: equivalencia demostrada (13.6),0
+clasificación,Naive Bayes,class_weight,Random,no se corre: equivalencia demostrada (13.6),0
+clasificación,Naive Bayes,class_weight,Bayesiano (TPE),no se corre: equivalencia demostrada (13.6),0
+clasificación,Naive Bayes,class_weight,Genético (DEAP),no se corre: equivalencia demostrada (13.6),0
+clasificación,Regresión logística (L1/L2),sin balanceo,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Regresión logística (L1/L2),sin balanceo,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),sin balanceo,Random,fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),sin balanceo,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),sin balanceo,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),SMOTE,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Regresión logística (L1/L2),SMOTE,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),SMOTE,Random,fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),SMOTE,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),SMOTE,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),ADASYN,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Regresión logística (L1/L2),ADASYN,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),ADASYN,Random,fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),ADASYN,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),ADASYN,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),class_weight,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Regresión logística (L1/L2),class_weight,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),class_weight,Random,fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),class_weight,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Regresión logística (L1/L2),class_weight,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,sin balanceo,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Árbol de decisión,sin balanceo,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,sin balanceo,Random,fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,sin balanceo,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,sin balanceo,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,SMOTE,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Árbol de decisión,SMOTE,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,SMOTE,Random,fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,SMOTE,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,SMOTE,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,ADASYN,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Árbol de decisión,ADASYN,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,ADASYN,Random,fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,ADASYN,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,ADASYN,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,class_weight,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Árbol de decisión,class_weight,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,class_weight,Random,fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,class_weight,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Árbol de decisión,class_weight,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,sin balanceo,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Random Forest,sin balanceo,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,sin balanceo,Random,fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,sin balanceo,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,sin balanceo,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,SMOTE,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Random Forest,SMOTE,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,SMOTE,Random,fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,SMOTE,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,SMOTE,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,ADASYN,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Random Forest,ADASYN,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,ADASYN,Random,fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,ADASYN,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,ADASYN,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,class_weight,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,Random Forest,class_weight,Grid,fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,class_weight,Random,fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,class_weight,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,Random Forest,class_weight,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,sin balanceo,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,XGBoost,sin balanceo,Grid,fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,sin balanceo,Random,fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,sin balanceo,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,sin balanceo,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,SMOTE,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,XGBoost,SMOTE,Grid,fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,SMOTE,Random,fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,SMOTE,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,SMOTE,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,ADASYN,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,XGBoost,ADASYN,Grid,fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,ADASYN,Random,fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,ADASYN,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,ADASYN,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,class_weight,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,XGBoost,class_weight,Grid,fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,class_weight,Random,fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,class_weight,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,XGBoost,class_weight,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,SVM,sin balanceo,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,SVM,sin balanceo,Grid,fase 2 si pasa el tamizaje,184
+clasificación,SVM,sin balanceo,Random,fase 2 si pasa el tamizaje,184
+clasificación,SVM,sin balanceo,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,SVM,sin balanceo,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,SVM,SMOTE,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,SVM,SMOTE,Grid,fase 2 si pasa el tamizaje,184
+clasificación,SVM,SMOTE,Random,fase 2 si pasa el tamizaje,184
+clasificación,SVM,SMOTE,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,SVM,SMOTE,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,SVM,ADASYN,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,SVM,ADASYN,Grid,fase 2 si pasa el tamizaje,184
+clasificación,SVM,ADASYN,Random,fase 2 si pasa el tamizaje,184
+clasificación,SVM,ADASYN,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,SVM,ADASYN,Genético (DEAP),fase 2 si pasa el tamizaje,184
+clasificación,SVM,class_weight,Random (5 evaluaciones),fase 1: tamizaje,11
+clasificación,SVM,class_weight,Grid,fase 2 si pasa el tamizaje,184
+clasificación,SVM,class_weight,Random,fase 2 si pasa el tamizaje,184
+clasificación,SVM,class_weight,Bayesiano (TPE),fase 2 si pasa el tamizaje,184
+clasificación,SVM,class_weight,Genético (DEAP),fase 2 si pasa el tamizaje,184

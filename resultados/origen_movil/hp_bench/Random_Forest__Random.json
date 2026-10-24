@@ -1,0 +1,9 @@
+{
+  "params": {
+    "n_estimators": 206,
+    "max_depth": 7,
+    "min_samples_leaf": 6,
+    "max_features": 0.23504301262978303
+  },
+  "RMSLE_CV": 0.3861234367097592
+}

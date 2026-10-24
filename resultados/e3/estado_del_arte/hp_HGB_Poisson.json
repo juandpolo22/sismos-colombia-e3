@@ -1,0 +1,10 @@
+{
+  "params": {
+    "learning_rate": 0.024220984456214803,
+    "max_leaf_nodes": 23,
+    "min_samples_leaf": 12,
+    "l2_regularization": 0.02049854011304751,
+    "max_iter": 469
+  },
+  "RMSLE_CV": 0.4024186629005608
+}

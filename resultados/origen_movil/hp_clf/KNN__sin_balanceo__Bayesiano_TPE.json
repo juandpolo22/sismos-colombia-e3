@@ -1,0 +1,8 @@
+{
+  "params": {
+    "n_neighbors": 185,
+    "weights": "uniform"
+  },
+  "AUC_CV": 0.6869279534083667,
+  "t_s": 8.970128536224365
+}

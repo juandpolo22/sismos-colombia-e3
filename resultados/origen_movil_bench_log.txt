@@ -1,0 +1,75 @@
+1) Afinando 28 combinaciones con datos < 2016...
+21:50:39 KNN / Grid: RMSLE CV 0.3941 (10 s)
+21:50:39 KNN / Random: RMSLE CV 0.3941 (10 s)
+21:50:50 KNN / Bayesiano (TPE): RMSLE CV 0.3940 (12 s)
+21:50:50 KNN / Genético (DEAP): RMSLE CV 0.3941 (12 s)
+21:50:52 Ridge / Grid: RMSLE CV 0.4012 (2 s)
+21:50:52 Ridge / Random: RMSLE CV 0.4012 (2 s)
+21:50:53 Ridge / Bayesiano (TPE): RMSLE CV 0.4012 (2 s)
+21:50:53 Ridge / Genético (DEAP): RMSLE CV 0.4012 (2 s)
+21:50:55 Lasso / Grid: RMSLE CV 0.4012 (2 s)
+21:50:55 Lasso / Random: RMSLE CV 0.4012 (2 s)
+21:50:58 Lasso / Bayesiano (TPE): RMSLE CV 0.4012 (2 s)
+21:50:58 Lasso / Genético (DEAP): RMSLE CV 0.4012 (2 s)
+21:51:00 Árbol de decisión / Grid: RMSLE CV 0.4002 (3 s)
+21:51:01 Árbol de decisión / Random: RMSLE CV 0.4013 (3 s)
+21:51:03 Árbol de decisión / Bayesiano (TPE): RMSLE CV 0.3971 (3 s)
+21:51:04 Árbol de decisión / Genético (DEAP): RMSLE CV 0.4020 (3 s)
+21:51:42 Random Forest / Grid: RMSLE CV 0.3872 (39 s)
+21:52:26 Random Forest / Random: RMSLE CV 0.3861 (82 s)
+21:53:06 Random Forest / Bayesiano (TPE): RMSLE CV 0.3865 (84 s)
+21:53:46 Random Forest / Genético (DEAP): RMSLE CV 0.3859 (79 s)
+21:53:46 XGBoost / Grid: RMSLE CV 0.3875 (13 s)
+21:53:46 XGBoost / Random: RMSLE CV 0.3866 (25 s)
+21:53:59 XGBoost / Bayesiano (TPE): RMSLE CV 0.3866 (15 s)
+21:54:10 XGBoost / Genético (DEAP): RMSLE CV 0.3869 (24 s)
+21:54:26 SVR / Grid: RMSLE CV 0.4273 (27 s)
+21:54:52 SVR / Random: RMSLE CV 0.3948 (42 s)
+21:55:13 SVR / Bayesiano (TPE): RMSLE CV 0.3954 (47 s)
+21:55:32 SVR / Genético (DEAP): RMSLE CV 0.3948 (40 s)
+2) Orígenes anuales...
+21:55:46 2016: 28 combinaciones (14 s)
+21:55:48 2017: 28 combinaciones (15 s)
+21:56:03 2018: 28 combinaciones (16 s)
+21:56:04 2019: 28 combinaciones (17 s)
+21:56:21 2020: 28 combinaciones (19 s)
+21:56:24 2021: 28 combinaciones (19 s)
+21:56:42 2022: 28 combinaciones (21 s)
+21:56:45 2023: 28 combinaciones (22 s)
+21:57:04 2024: 28 combinaciones (22 s)
+21:57:09 2025: 28 combinaciones (23 s)
+21:57:29 2026: 28 combinaciones (25 s)
+
+            modelo     optimizador  RMSLE_rival  RMSLE_AB  dif_media  DM_HLN      p   T  p_Holm veredicto
+              KNN            Grid       0.3354    0.3286     0.0044  6.9003 0.0000 129  0.0000  A+B gana
+              KNN          Random       0.3350    0.3286     0.0042  5.8774 0.0000 129  0.0000  A+B gana
+              KNN Bayesiano (TPE)       0.3351    0.3286     0.0042  6.0799 0.0000 129  0.0000  A+B gana
+              KNN Genético (DEAP)       0.3350    0.3286     0.0042  5.8774 0.0000 129  0.0000  A+B gana
+            Ridge            Grid       0.3472    0.3286     0.0125 18.9080 0.0000 129  0.0000  A+B gana
+            Ridge          Random       0.3472    0.3286     0.0125 18.9080 0.0000 129  0.0000  A+B gana
+            Ridge Bayesiano (TPE)       0.3472    0.3286     0.0125 18.9080 0.0000 129  0.0000  A+B gana
+            Ridge Genético (DEAP)       0.3472    0.3286     0.0125 18.9080 0.0000 129  0.0000  A+B gana
+            Lasso            Grid       0.3472    0.3286     0.0125 18.9182 0.0000 129  0.0000  A+B gana
+            Lasso          Random       0.3472    0.3286     0.0125 18.9321 0.0000 129  0.0000  A+B gana
+            Lasso Bayesiano (TPE)       0.3472    0.3286     0.0125 18.9185 0.0000 129  0.0000  A+B gana
+            Lasso Genético (DEAP)       0.3472    0.3286     0.0125 18.9321 0.0000 129  0.0000  A+B gana
+Árbol de decisión            Grid       0.3364    0.3286     0.0054  4.2149 0.0000 129  0.0004  A+B gana
+Árbol de decisión          Random       0.3393    0.3286     0.0074  4.0268 0.0001 129  0.0006  A+B gana
+Árbol de decisión Bayesiano (TPE)       0.3365    0.3286     0.0054  5.0754 0.0000 129  0.0000  A+B gana
+Árbol de decisión Genético (DEAP)       0.3395    0.3286     0.0074  6.4577 0.0000 129  0.0000  A+B gana
+    Random Forest            Grid       0.3335    0.3286     0.0032  6.7012 0.0000 129  0.0000  A+B gana
+    Random Forest          Random       0.3308    0.3286     0.0014  4.1864 0.0001 129  0.0004  A+B gana
+    Random Forest Bayesiano (TPE)       0.3302    0.3286     0.0010  3.4224 0.0008 129  0.0042  A+B gana
+    Random Forest Genético (DEAP)       0.3300    0.3286     0.0009  3.1961 0.0018 129  0.0070  A+B gana
+          XGBoost            Grid       0.3308    0.3286     0.0014  5.1013 0.0000 129  0.0000  A+B gana
+          XGBoost          Random       0.3295    0.3286     0.0006  3.1745 0.0019 129  0.0070  A+B gana
+          XGBoost Bayesiano (TPE)       0.3294    0.3286     0.0005  2.6821 0.0083 129  0.0166  A+B gana
+          XGBoost Genético (DEAP)       0.3290    0.3286     0.0003  1.3961 0.1651 129  0.1651    empate
+              SVR            Grid       0.3616    0.3286     0.0227 22.4051 0.0000 129  0.0000  A+B gana
+              SVR          Random       0.3532    0.3286     0.0165 14.0523 0.0000 129  0.0000  A+B gana
+              SVR Bayesiano (TPE)       0.3495    0.3286     0.0140 11.4161 0.0000 129  0.0000  A+B gana
+              SVR Genético (DEAP)       0.3531    0.3286     0.0165 14.1004 0.0000 129  0.0000  A+B gana 
+ veredicto
+A+B gana    27
+empate       1 
+Total 7.0 min

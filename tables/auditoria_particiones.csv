@@ -1,0 +1,9 @@
+chequeo,resultado
+"Filas (celda, mes objetivo) repetidas entre entrenamiento y prueba",0
+Último mes objetivo de entrenamiento,2020-11
+Primer mes objetivo de prueba,2021-01
+Meses de separación (gap) entre objetivos,1
+¿Algún sismo es objetivo en prueba y predictora o objetivo en entrenamiento?,no
+Mes más reciente usado por una variable de entrenamiento,2020-10
+Celdas presentes en ambas particiones (entidades repetidas),163 de 163 (por diseño)
+Rezago espacial: mes de los vecinos,"t (igual que la celda), nunca t+1"

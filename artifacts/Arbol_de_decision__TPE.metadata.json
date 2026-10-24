@@ -1,0 +1,174 @@
+{
+ "modelo": "Arbol_de_decision__TPE",
+ "archivo": "Arbol_de_decision__TPE.joblib",
+ "tamano_MB": 0.01,
+ "semilla": 42,
+ "python": "3.9.25",
+ "librerias": {
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "scikit-learn": "1.5.2",
+  "xgboost": "2.1.4",
+  "joblib": "1.4.2"
+ },
+ "entrenamiento": {
+  "filas": 42380,
+  "primer_mes_objetivo": "2005-02-01",
+  "ultimo_mes_objetivo": "2026-09-01",
+  "celdas": 163
+ },
+ "esquema_entrada": [
+  {
+   "columna": "n_1m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "n_3m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 336.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "n_6m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 685.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "n_12m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 1314.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "n35_3m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 48.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "n35_12m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 176.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "mag_media_3m",
+   "tipo": "real",
+   "min": 2.499999999999986,
+   "max": 5.5,
+   "admite_faltante": true
+  },
+  {
+   "columna": "mag_media_12m",
+   "tipo": "real",
+   "min": 2.499999999999986,
+   "max": 5.300000000000011,
+   "admite_faltante": true
+  },
+  {
+   "columna": "mag_max_3m",
+   "tipo": "real",
+   "min": 2.5,
+   "max": 7.4,
+   "admite_faltante": true
+  },
+  {
+   "columna": "mag_max_12m",
+   "tipo": "real",
+   "min": 2.5,
+   "max": 7.4,
+   "admite_faltante": true
+  },
+  {
+   "columna": "prof_media_hist",
+   "tipo": "real",
+   "min": 0.0,
+   "max": 192.9,
+   "admite_faltante": true
+  },
+  {
+   "columna": "vec_1m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 252.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "vec_3m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 380.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "n_mismo_mes_anio_prev",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "sen_mes",
+   "tipo": "real",
+   "min": -1.0,
+   "max": 1.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "cos_mes",
+   "tipo": "real",
+   "min": -1.0,
+   "max": 1.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "lat",
+   "tipo": "real",
+   "min": 0.25,
+   "max": 11.75,
+   "admite_faltante": false
+  },
+  {
+   "columna": "lon",
+   "tipo": "real",
+   "min": -79.75,
+   "max": -71.25,
+   "admite_faltante": false
+  }
+ ],
+ "prueba_ida_y_vuelta": {
+  "filas": 1956,
+  "identicas": true,
+  "archivo": "Arbol_de_decision__TPE.ida_vuelta.npy"
+ },
+ "tiempo_carga_s": 0.003,
+ "tiempo_inferencia_ms_por_fila": 0.0037,
+ "familia": "Árbol de decisión",
+ "optimizador": "Bayesiano (TPE)",
+ "etiqueta": "Árbol de decisión · TPE",
+ "hiperparametros": {
+  "max_depth": 6,
+  "min_samples_leaf": 23
+ },
+ "criterio_seleccion": "menor RMSLE en la validación interna anterior a 2016 (campeón de la familia)",
+ "rmsle_validacion_previa_2016": 0.3970501820965915,
+ "metricas_bucle_externo_validacion_anidada": {
+  "RMSLE_media": 0.3310764581443523,
+  "RMSLE_desv": 0.0315312292611211,
+  "RMSE_media": 2.099318383359147,
+  "RMSE_desv": 1.6799448253140248,
+  "MAE_media": 0.4702115721193022,
+  "MAE_desv": 0.1089575194186798
+ },
+ "rmsle_origen_movil_2021_2026": 0.3307801339146484,
+ "tiempo_entrenamiento_s": 0.1
+}

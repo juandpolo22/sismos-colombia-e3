@@ -1,0 +1,20 @@
+componente,variable,valor,segundos
+árbol CART (sin orden previo),n,2000,0.011880818999998155
+árbol CART (con orden reutilizado),n,2000,0.008651034000649815
+combinador A (L-BFGS),n,2000,0.031509847000052105
+árbol CART (sin orden previo),n,4000,0.03214909199959948
+árbol CART (con orden reutilizado),n,4000,0.022698601999763923
+combinador A (L-BFGS),n,4000,0.026840860999982397
+árbol CART (sin orden previo),n,8000,0.05451339100000041
+árbol CART (con orden reutilizado),n,8000,0.03773186899979919
+combinador A (L-BFGS),n,8000,0.07458918199972686
+árbol CART (sin orden previo),n,16000,0.16251704300066194
+árbol CART (con orden reutilizado),n,16000,0.1235934249998536
+combinador A (L-BFGS),n,16000,0.08254169000065303
+árbol CART (sin orden previo),n,29666,0.2489723230000891
+árbol CART (con orden reutilizado),n,29666,0.1671184060005544
+combinador A (L-BFGS),n,29666,0.16271640499962814
+árbol CART (con orden reutilizado),p,4,0.011233598000217171
+árbol CART (con orden reutilizado),p,8,0.018951680999634846
+árbol CART (con orden reutilizado),p,16,0.036600975000510516
+árbol CART (con orden reutilizado),p,31,0.09254572099962388

@@ -1,0 +1,9 @@
+modelo,balanceo,optimizador,RMSLE bucle externo (media ± d.e.),RMSLE_externo,RMSLE validación < 2016,RMSLE origen móvil 2021–2026,mejor optimizador por bucle externo,inferencia (ms/fila),etiqueta
+Random Forest,no aplica (regresión),Genético (DEAP),0.3192 ± 0.0256,0.3191690087554583,0.38592167174073183,0.32792542931685204,Random,0.0125,Random Forest · AG
+XGBoost,no aplica (regresión),Bayesiano (TPE),0.3182 ± 0.0266,0.3181586542676469,0.3865924426286457,0.3270168047854304,Random,0.0061,XGBoost · TPE
+KNN,no aplica (regresión),Bayesiano (TPE),0.3239 ± 0.0241,0.3238741048103655,0.3939555729907826,0.33445385899824576,Random,0.1449,KNN · TPE
+SVR,no aplica (regresión),Genético (DEAP),0.3641 ± 0.0662,0.3640843924491949,0.3947786540100348,0.35473021233204705,Bayesiano (TPE),0.0936,SVR · AG
+Árbol de decisión,no aplica (regresión),Bayesiano (TPE),0.3311 ± 0.0315,0.3310764581443523,0.3970501820965915,0.3307801339146484,Grid,0.0037,Árbol de decisión · TPE
+Ridge,no aplica (regresión),Grid,0.3341 ± 0.0251,0.3341448987563229,0.40121303856589563,0.34634729168632644,Genético (DEAP),0.0033,Ridge · Grid
+Lasso,no aplica (regresión),Grid,0.3341 ± 0.0251,0.3341454709963199,0.40121360796637867,0.34634718565282124,Genético (DEAP),0.0057,Lasso · Grid
+A+B v2 (propio),no aplica (regresión),rejilla interna de λ,— (evaluado en el origen móvil),,,0.32596947199891413,—,0.3144,A+B v2

@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+catboost_info/
+book/_build/
+.ipynb_checkpoints/
+.DS_Store
+resultados/origen_movil/matrices/

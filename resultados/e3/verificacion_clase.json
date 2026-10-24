@@ -1,0 +1,8 @@
+{
+ "rmsle_clase": 0.314902,
+ "rmsle_evaluado": 0.3149283179983784,
+ "dif_max": 0.337,
+ "rmsle_repeticion_procedimiento": 0.3149086600683944,
+ "dif_max_repeticion_procedimiento": 0.28943887350725106,
+ "nota": "Entradas de entrenamiento del combinador (pron\u00f3sticos fuera de pliegue y meta-caracter\u00edsticas) id\u00e9nticas bit a bit; las diferencias de prueba vienen del ruido num\u00e9rico de las optimizaciones L-BFGS (ZINB y combinador), del mismo orden que repetir el propio procedimiento evaluado."
+}

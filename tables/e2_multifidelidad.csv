@@ -1,0 +1,4 @@
+método,configuraciones evaluadas (todas las fidelidades),costo (evaluaciones equivalentes),tiempo de búsqueda (s),mejor RMSLE interno,RMSLE en el año reservado
+Hyperband,48,14.666666666666668,35.126500303998,0.3583585781604158,0.3217021839130025
+Random Search,15,15.0,32.789702323999336,0.3573495744958175,0.321620220510395
+Successive Halving,39,9.0,21.20653922200017,0.3597668506899453,0.3230585183801648

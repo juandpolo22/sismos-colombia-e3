@@ -1,0 +1,10 @@
+{
+  "params": {
+    "n_estimators": 59,
+    "max_depth": 4,
+    "min_samples_leaf": 1,
+    "max_features": 0.6502689720847806
+  },
+  "AUC_CV": 0.6963055284623699,
+  "t_s": 96.64901304244995
+}

@@ -1,0 +1,50 @@
+[
+ {
+  "modelo": "Random_Forest__AG",
+  "archivo": "Random_Forest__AG.joblib",
+  "etiqueta": "Random Forest · AG",
+  "tamano_MB": 0.73
+ },
+ {
+  "modelo": "XGBoost__TPE",
+  "archivo": "XGBoost__TPE.joblib",
+  "etiqueta": "XGBoost · TPE",
+  "tamano_MB": 0.15
+ },
+ {
+  "modelo": "KNN__TPE",
+  "archivo": "KNN__TPE.joblib",
+  "etiqueta": "KNN · TPE",
+  "tamano_MB": 0.79
+ },
+ {
+  "modelo": "SVR__AG",
+  "archivo": "SVR__AG.joblib",
+  "etiqueta": "SVR · AG",
+  "tamano_MB": 0.07
+ },
+ {
+  "modelo": "Arbol_de_decision__TPE",
+  "archivo": "Arbol_de_decision__TPE.joblib",
+  "etiqueta": "Árbol de decisión · TPE",
+  "tamano_MB": 0.01
+ },
+ {
+  "modelo": "Ridge__Grid",
+  "archivo": "Ridge__Grid.joblib",
+  "etiqueta": "Ridge · Grid",
+  "tamano_MB": 0.0
+ },
+ {
+  "modelo": "Lasso__Grid",
+  "archivo": "Lasso__Grid.joblib",
+  "etiqueta": "Lasso · Grid",
+  "tamano_MB": 0.0
+ },
+ {
+  "modelo": "A+B_v2",
+  "archivo": "A+B_v2.joblib",
+  "etiqueta": "A+B v2 (propio)",
+  "tamano_MB": 3.15
+ }
+]

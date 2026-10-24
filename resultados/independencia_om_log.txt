@@ -1,0 +1,44 @@
+A+B (propuesto) listo
+Random Forest (Genético (DEAP)) listo
+XGBoost (Bayesiano (TPE)) listo
+KNN (Bayesiano (TPE)) listo
+SVR (Genético (DEAP)) listo
+Árbol de decisión (Bayesiano (TPE)) listo
+Ridge (Grid) listo
+Lasso (Grid) listo
+                                modelo   RMSLE  EL_estadistico  EL_rezagos    EL_p    BG_LM    BG_p  BDS_p_dim2  BDS_p_dim3
+0                      A+B (propuesto)  0.3260          1.7093           1  0.1911  11.6318  0.4757      0.3227      0.7817
+1      Random Forest (Genético (DEAP))  0.3279          0.4478           1  0.5034  12.4657  0.4090      0.0156      0.2026
+2            XGBoost (Bayesiano (TPE))  0.3270          0.2449           1  0.6207  11.8269  0.4597      0.0237      0.2477
+3                KNN (Bayesiano (TPE))  0.3345          0.5292           1  0.4669  11.7320  0.4674      0.2402      0.3366
+4                SVR (Genético (DEAP))  0.3547          0.3071           1  0.5795  13.9789  0.3021      0.5100      0.5664
+5  Árbol de decisión (Bayesiano (TPE))  0.3308          0.6548           1  0.4184  11.9835  0.4470      0.0048      0.0843
+6                         Ridge (Grid)  0.3463          0.4544           1  0.5003  11.0128  0.5278      0.0110      0.0622
+7                         Lasso (Grid)  0.3463          0.4533           1  0.5008  11.0065  0.5284      0.0130      0.0682
+                                modelo  celdas  frac_p<0.05  frac_p<0.05_Holm
+0                      A+B (propuesto)     182        0.291             0.176
+1      Random Forest (Genético (DEAP))     182        0.291             0.181
+2            XGBoost (Bayesiano (TPE))     182        0.308             0.203
+3                KNN (Bayesiano (TPE))     182        0.214             0.033
+4                SVR (Genético (DEAP))     182        0.258             0.159
+5  Árbol de decisión (Bayesiano (TPE))     182        0.264             0.143
+6                         Ridge (Grid)     182        0.280             0.154
+7                         Lasso (Grid)     182        0.280             0.154
+                                     I_mediana  frac_meses_p05
+modelo                                                        
+A+B (propuesto)                         -0.001           0.101
+KNN (Bayesiano (TPE))                    0.003           0.101
+Lasso (Grid)                            -0.001           0.116
+Random Forest (Genético (DEAP))          0.006           0.101
+Ridge (Grid)                            -0.001           0.116
+SVR (Genético (DEAP))                    0.065           0.478
+XGBoost (Bayesiano (TPE))                0.006           0.101
+Árbol de decisión (Bayesiano (TPE))      0.003           0.087
+                                 rival    EL_p  EL_rezagos    BG_p
+0      Random Forest (Genético (DEAP))  0.2606           1  0.2013
+1            XGBoost (Bayesiano (TPE))  0.8173           1  0.5315
+2                KNN (Bayesiano (TPE))  0.1868           1  0.2482
+3                SVR (Genético (DEAP))  0.3072           1  0.1740
+4  Árbol de decisión (Bayesiano (TPE))  0.0211           1  0.1465
+5                         Ridge (Grid)  0.8045           1  0.9879
+6                         Lasso (Grid)  0.8062           1  0.9880

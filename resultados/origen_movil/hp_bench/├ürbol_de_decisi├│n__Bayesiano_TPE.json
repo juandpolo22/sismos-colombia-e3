@@ -1,0 +1,7 @@
+{
+  "params": {
+    "max_depth": 6,
+    "min_samples_leaf": 23
+  },
+  "RMSLE_CV": 0.3970501820965915
+}

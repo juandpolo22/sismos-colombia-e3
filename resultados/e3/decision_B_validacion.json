@@ -1,0 +1,15 @@
+{
+ "B_actual": {
+  "lr": 0.08,
+  "depth": 3,
+  "min_leaf": 50
+ },
+ "B_optimizada": {
+  "lr": 0.05514718587869894,
+  "depth": 6,
+  "min_leaf": 119
+ },
+ "adoptar_B_optimizada": false,
+ "meses_validacion": 31,
+ "regla": "adoptar solo si A+B con B optimizada supera con DM p < 0,05 al A+B actual y a XGBoost · AG en la validación previa (< 2021)"
+}

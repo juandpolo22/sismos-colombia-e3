@@ -1,0 +1,11 @@
+modelo,perdida_media,p_MCS,rango_perdida,en_MCS
+A+B v2 (propuesto),0.10586031682321713,1.0,1,True
+XGBoost · TPE,0.10653062441766495,0.0035,2,False
+Random Forest · AG,0.10710730959730362,0.0035,3,False
+Árbol de decisión · TPE,0.10895653754384176,0.002,4,False
+KNN · TPE,0.11142071733915893,0.0,5,False
+Lasso · Grid,0.11950648139095066,0.0,6,False
+Ridge · Grid,0.1195064867401185,0.0,7,False
+SVR · AG,0.12544668748985857,0.0,8,False
+Persistencia,0.1847650692065303,0.0,9,False
+Ingenuo estacional,0.20702459440541537,0.0,10,False

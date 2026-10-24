@@ -1,0 +1,7 @@
+{
+  "params": {
+    "n_neighbors": 83,
+    "weights": "distance"
+  },
+  "RMSLE_CV": 0.39413488519786255
+}

@@ -1,0 +1,11 @@
+{
+  "params": {
+    "n_estimators": 464,
+    "num_leaves": 13,
+    "learning_rate": 0.015278020062712675,
+    "subsample": 0.5588966653845142,
+    "colsample_bytree": 0.6931399849645029,
+    "min_child_samples": 31
+  },
+  "RMSLE_CV": 0.3864902776877748
+}

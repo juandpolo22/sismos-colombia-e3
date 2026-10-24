@@ -1,0 +1,26 @@
+sección,requisito,dónde
+1,"Definición del problema, justificación, fuente, licencia",Cap. 1 y 2
+1,"Diccionario de variables (tipo, unidad, significado)",Cap. 2 · tables/diccionario_*.csv
+1,"Estructura: unidad, agregación, tipo",Cap. 2
+1,Tamaño ≥ 20.000; n/p; rango del objetivo; entidades independientes,Cap. 1 y 2
+1,"Faltantes: patrón (matriz de nulos) y mecanismo (Little, comparación de distribuciones, AUC)",Cap. 2
+1,Duplicados exactos y casi-duplicados,Cap. 2
+1,Outliers: detección y tratamiento,"Cap. 2, 4 y 6"
+1,Valores imposibles o inconsistentes,Cap. 2
+1,Sesgos de muestreo y representatividad; ética,"Cap. 2, 8 y 12"
+2,Reserva del conjunto de prueba antes de decidir,Cap. 1 (partición cronológica con gap)
+2.1,"Variable objetivo: distribución, asimetría, colas, transformación, tiempo y espacio",Cap. 3
+2.2,"Univariado: tipos, cardinalidad, estadísticos, histogramas, asimetría, curtosis, normalidad, boxplots, categorías raras",Cap. 4
+2.3,"Bivariado: hexbin, Pearson/Spearman, pruebas entre grupos con tamaño de efecto, χ²/Cramér, información mutua, heatmap, VIF, Holm/FDR",Cap. 5
+2.4,"Multivariado: PCA, t-SNE (visual), Mahalanobis robusta, Isolation Forest, clustering",Cap. 6
+2.5,"Auditoría de fuga: disponibilidad, proxies, R² univariado, entidades entre particiones",Cap. 9
+2.6,"Temporal: validación, agregaciones, STL, ADF/KPSS, ACF/PACF/CCF, regímenes, calendario, deriva, panel",Cap. 7
+2.7,"Espacial: CRS, mapa base, densidad, coropletas, Clark-Evans, Ripley, DBSCAN haversine, Moran, LISA, Gi*, MAUP, heterogeneidad",Cap. 8
+2.8,"Espacio-temporal: mapas por periodo, series por zona, Knox, persistencia de hotspots, Moran por año",Cap. 8
+2.9,Preprocesamiento en Pipeline ajustado solo con entrenamiento; decisiones trazadas al EDA,Cap. 10
+3,"Línea base trivial (Dummy, persistencia, ingenuo estacional, media por celda) y SVR lineal",Cap. 11
+3,Validación cruzada del mismo tipo que la partición (temporal) y espacial por separado,Cap. 11
+3,"Métricas RMSE, MAPE, R² (+ RMSLE, MAE, sMAPE) e IC bootstrap (percentil y BCa)",Cap. 11
+3,"Residuos: normalidad, heterocedasticidad (White/BP), ACF + Ljung-Box, BDS, I de Moran",Cap. 11
+3,Curva de aprendizaje; interpretación de coeficientes; nota crítica,Cap. 11
+Entregables,"Jupyter Book, datos (data/), requirements.txt, semilla 42",Este repositorio

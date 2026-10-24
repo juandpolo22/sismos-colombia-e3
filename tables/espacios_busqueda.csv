@@ -1,0 +1,49 @@
+tarea,modelo,hiperparámetro,tipo,rango,escala,puntos en Grid
+regresión,KNN,n_neighbors,int,5 – 200,log,7
+regresión,KNN,weights,cat,"uniform, distance",—,2
+regresión,Ridge,alpha,float,0.001 – 10000.0,log,15
+regresión,Lasso,alpha,float,1e-05 – 0.1,log,15
+regresión,Árbol de decisión,max_depth,int,2 – 20,lineal,4
+regresión,Árbol de decisión,min_samples_leaf,int,5 – 500,log,3
+regresión,Random Forest,n_estimators,int,50 – 250,lineal,2
+regresión,Random Forest,max_depth,int,4 – 20,lineal,2
+regresión,Random Forest,min_samples_leaf,int,1 – 50,log,2
+regresión,Random Forest,max_features,float,0.2 – 1.0,lineal,1
+regresión,XGBoost,n_estimators,int,100 – 600,lineal,2
+regresión,XGBoost,max_depth,int,2 – 8,lineal,2
+regresión,XGBoost,learning_rate,float,0.01 – 0.3,log,2
+regresión,XGBoost,subsample,float,0.5 – 1.0,lineal,1
+regresión,XGBoost,colsample_bytree,float,0.5 – 1.0,lineal,1
+regresión,XGBoost,min_child_weight,float,1 – 50,log,1
+regresión,SVR,C,float,0.01 – 30,log,3
+regresión,SVR,epsilon,float,0.01 – 0.5,log,2
+regresión,SVR,gamma,float,0.001 – 1,log,2
+regresión,LightGBM,n_estimators,int,100 – 600,lineal,2
+regresión,LightGBM,num_leaves,int,8 – 128,log,2
+regresión,LightGBM,learning_rate,float,0.01 – 0.3,log,2
+regresión,LightGBM,subsample,float,0.5 – 1.0,lineal,1
+regresión,LightGBM,colsample_bytree,float,0.5 – 1.0,lineal,1
+regresión,LightGBM,min_child_samples,int,5 – 200,log,1
+regresión,CatBoost,iterations,int,200 – 800,lineal,2
+regresión,CatBoost,depth,int,3 – 8,lineal,2
+regresión,CatBoost,learning_rate,float,0.01 – 0.3,log,2
+regresión,CatBoost,l2_leaf_reg,float,1 – 30,log,1
+clasificación,KNN,n_neighbors,int,5 – 200,log,7
+clasificación,KNN,weights,cat,"uniform, distance",—,2
+clasificación,Naive Bayes,var_smoothing,float,1e-12 – 0.1,log,15
+clasificación,Regresión logística (L1/L2),C,float,0.001 – 100.0,log,7
+clasificación,Regresión logística (L1/L2),penalty,cat,"l1, l2",—,2
+clasificación,Árbol de decisión,max_depth,int,2 – 20,lineal,4
+clasificación,Árbol de decisión,min_samples_leaf,int,5 – 500,log,3
+clasificación,Random Forest,n_estimators,int,50 – 250,lineal,2
+clasificación,Random Forest,max_depth,int,4 – 20,lineal,2
+clasificación,Random Forest,min_samples_leaf,int,1 – 50,log,2
+clasificación,Random Forest,max_features,float,0.2 – 1.0,lineal,1
+clasificación,XGBoost,n_estimators,int,100 – 600,lineal,2
+clasificación,XGBoost,max_depth,int,2 – 8,lineal,2
+clasificación,XGBoost,learning_rate,float,0.01 – 0.3,log,2
+clasificación,XGBoost,subsample,float,0.5 – 1.0,lineal,1
+clasificación,XGBoost,colsample_bytree,float,0.5 – 1.0,lineal,1
+clasificación,XGBoost,min_child_weight,float,1 – 50,log,1
+clasificación,SVM,C,float,0.01 – 30,log,4
+clasificación,SVM,gamma,float,0.001 – 1,log,3

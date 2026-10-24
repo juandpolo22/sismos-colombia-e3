@@ -1,0 +1,23 @@
+{
+  "XGBoost": {
+    "n_estimators": 527,
+    "max_depth": 3,
+    "learning_rate": 0.012193270794813886,
+    "subsample": 0.6406919460109983,
+    "colsample_bytree": 0.6467968788833418,
+    "min_child_weight": 13.322210879516291
+  },
+  "Random Forest": {
+    "n_estimators": 206,
+    "max_depth": 7,
+    "min_samples_leaf": 6,
+    "max_features": 0.23504301262978303
+  },
+  "KNN": {
+    "n_neighbors": 83,
+    "weights": "distance"
+  },
+  "Ridge": {
+    "alpha": 0.004562905088129698
+  }
+}

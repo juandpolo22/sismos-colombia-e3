@@ -1,0 +1,7 @@
+proceso,rss_base_MiB,incremento_pico_MiB
+Random Forest (150 árboles),217.66015625,0.5546875
+XGBoost exact (600 árboles),217.4921875,4.60546875
+XGBoost hist (600 árboles),217.796875,6.12890625
+"KNN brute (k=75, consulta de la prueba)",217.76171875,1.58203125
+"KNN kd_tree (k=75, consulta de la prueba)",217.5,6.97265625
+SVC RBF (8000 filas),217.6328125,119.44921875

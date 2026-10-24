@@ -1,0 +1,375 @@
+{
+ "modelo": "A+B_v2",
+ "archivo": "A+B_v2.joblib",
+ "tamano_MB": 3.15,
+ "semilla": 42,
+ "python": "3.9.25",
+ "librerias": {
+  "numpy": "1.26.4",
+  "pandas": "2.2.3",
+  "scikit-learn": "1.5.2",
+  "xgboost": "2.1.4",
+  "joblib": "1.4.2"
+ },
+ "entrenamiento": {
+  "filas": 42380,
+  "primer_mes_objetivo": "2005-02-01",
+  "ultimo_mes_objetivo": "2026-09-01",
+  "celdas": 163
+ },
+ "esquema_entrada": [
+  {
+   "columna": "n_1m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "n_3m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 336.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "n_6m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 685.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "n_12m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 1314.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "n35_3m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 48.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "n35_12m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 176.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "mag_media_3m",
+   "tipo": "real",
+   "min": 2.499999999999986,
+   "max": 5.5,
+   "admite_faltante": true
+  },
+  {
+   "columna": "mag_media_12m",
+   "tipo": "real",
+   "min": 2.499999999999986,
+   "max": 5.300000000000011,
+   "admite_faltante": true
+  },
+  {
+   "columna": "mag_max_3m",
+   "tipo": "real",
+   "min": 2.5,
+   "max": 7.4,
+   "admite_faltante": true
+  },
+  {
+   "columna": "mag_max_12m",
+   "tipo": "real",
+   "min": 2.5,
+   "max": 7.4,
+   "admite_faltante": true
+  },
+  {
+   "columna": "prof_media_hist",
+   "tipo": "real",
+   "min": 0.0,
+   "max": 192.9,
+   "admite_faltante": true
+  },
+  {
+   "columna": "vec_1m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 252.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "vec_3m",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 380.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "n_mismo_mes_anio_prev",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "sen_mes",
+   "tipo": "real",
+   "min": -1.0,
+   "max": 1.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "cos_mes",
+   "tipo": "real",
+   "min": -1.0,
+   "max": 1.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "lat",
+   "tipo": "real",
+   "min": 0.25,
+   "max": 11.75,
+   "admite_faltante": false
+  },
+  {
+   "columna": "lon",
+   "tipo": "real",
+   "min": -79.75,
+   "max": -71.25,
+   "admite_faltante": false
+  },
+  {
+   "columna": "exc_a0.5_s15_r0.4",
+   "tipo": "real",
+   "min": 9.828986614861939e-46,
+   "max": 0.9619149272994295,
+   "admite_faltante": false
+  },
+  {
+   "columna": "exc_a0.5_s15_r0.8",
+   "tipo": "real",
+   "min": 2.310113037932131e-42,
+   "max": 1.5544620379281369,
+   "admite_faltante": false
+  },
+  {
+   "columna": "exc_a0.5_s30_r0.4",
+   "tipo": "real",
+   "min": 1.2203838701380565e-16,
+   "max": 0.9637000512949775,
+   "admite_faltante": false
+  },
+  {
+   "columna": "exc_a0.5_s30_r0.8",
+   "tipo": "real",
+   "min": 1.888946247765023e-13,
+   "max": 1.5738568686419183,
+   "admite_faltante": false
+  },
+  {
+   "columna": "exc_a0.5_s60_r0.4",
+   "tipo": "real",
+   "min": 1.56595946789225e-08,
+   "max": 1.0833627527199932,
+   "admite_faltante": false
+  },
+  {
+   "columna": "exc_a0.5_s60_r0.8",
+   "tipo": "real",
+   "min": 8.813578602421202e-06,
+   "max": 1.649815039749003,
+   "admite_faltante": false
+  },
+  {
+   "columna": "exc_a0.9_s15_r0.4",
+   "tipo": "real",
+   "min": 4.7766725910733406e-46,
+   "max": 3.310529082780611,
+   "admite_faltante": false
+  },
+  {
+   "columna": "exc_a0.9_s15_r0.8",
+   "tipo": "real",
+   "min": 1.0669128290194206e-42,
+   "max": 3.3139108709301888,
+   "admite_faltante": false
+  },
+  {
+   "columna": "exc_a0.9_s30_r0.4",
+   "tipo": "real",
+   "min": 4.129235458191437e-17,
+   "max": 3.313127437809105,
+   "admite_faltante": false
+  },
+  {
+   "columna": "exc_a0.9_s30_r0.8",
+   "tipo": "real",
+   "min": 8.632669076453915e-14,
+   "max": 3.3172845522335876,
+   "admite_faltante": false
+  },
+  {
+   "columna": "exc_a0.9_s60_r0.4",
+   "tipo": "real",
+   "min": 6.777269692215038e-09,
+   "max": 3.324863126917374,
+   "admite_faltante": false
+  },
+  {
+   "columna": "exc_a0.9_s60_r0.8",
+   "tipo": "real",
+   "min": 3.6537294441365713e-06,
+   "max": 3.334433826975935,
+   "admite_faltante": false
+  },
+  {
+   "columna": "media_expansiva",
+   "tipo": "real",
+   "min": 0.0,
+   "max": 106.42857142857143,
+   "admite_faltante": false
+  },
+  {
+   "columna": "h0",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "h1",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "h2",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "h3",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "h4",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "h5",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "h6",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "h7",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "h8",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "h9",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "h10",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "h11",
+   "tipo": "entero",
+   "min": 0.0,
+   "max": 148.0,
+   "admite_faltante": false
+  },
+  {
+   "columna": "mes",
+   "tipo": "entero",
+   "min": 13.0,
+   "max": 272.0,
+   "admite_faltante": false
+  }
+ ],
+ "prueba_ida_y_vuelta": {
+  "filas": 1956,
+  "identicas": true,
+  "archivo": "A+B_v2.ida_vuelta.npy"
+ },
+ "tiempo_carga_s": 0.328,
+ "tiempo_inferencia_ms_por_fila": 0.3144,
+ "familia": "Modelo original",
+ "optimizador": "λ por rejilla interna; B y miembros con hiperparámetros previos a 2016",
+ "etiqueta": "A+B v2 (propio)",
+ "hiperparametros": {
+  "calibrar": true,
+  "hoja_b": 50,
+  "iter_max_b": 300,
+  "lr_b": 0.08,
+  "n_bloques": 5,
+  "n_jobs": 2,
+  "profundidad_b": 3,
+  "random_state": 42,
+  "usar_b": true,
+  "usar_zinb": true
+ },
+ "miembros": [
+  "XGBoost (Grid)",
+  "XGBoost (Random)",
+  "XGBoost (Bayesiano (TPE))",
+  "XGBoost (Genético (DEAP))",
+  "Random Forest (Grid)",
+  "Random Forest (Random)",
+  "Random Forest (Bayesiano (TPE))",
+  "Random Forest (Genético (DEAP))",
+  "KNN (Bayesiano (TPE))",
+  "Ridge (Grid)",
+  "Núcleo ZINB (propio)",
+  "B: boosting ZINB (propio)",
+  "Persistencia",
+  "Ingenuo estacional"
+ ],
+ "l2_elegido": 0.001,
+ "calibracion": {
+  "c0": 0.008849016100003358,
+  "c1": 1.0464199711869508
+ },
+ "rmsle_origen_movil_2021_2026": 0.3259694719989141,
+ "tiempo_entrenamiento_s": 396.4
+}

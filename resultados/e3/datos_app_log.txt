@@ -1,0 +1,9 @@
+panel: (42543, 49) | mes a pronosticar: 2026-10-01
+listo A+B v2
+listo Random Forest · AG
+listo XGBoost · TPE
+listo KNN · TPE
+listo SVR · AG
+listo Árbol de decisión · TPE
+listo Ridge · Grid
+listo Lasso · Grid

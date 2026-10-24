@@ -1,0 +1,63 @@
+/* Paleta del proyecto (máximo cinco colores): tinta, azul petróleo, naranja, gris y arena */
+:root {
+  --tinta: #1f2a30; --azul: #1f6f78; --naranja: #c4561b; --gris: #6b7780; --arena: #f4f1ec;
+}
+body { background: var(--arena); color: var(--tinta); font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
+.barra { background: var(--tinta) !important; }
+.marca-punto { color: var(--naranja); }
+.navbar .nav-link.active { color: #fff !important; border-bottom: 2px solid var(--naranja); }
+.contenido { max-width: 1320px; padding: 20px 16px 32px; }
+.pie { color: var(--gris); font-size: 12.5px; padding: 18px 0 26px; border-top: 1px solid #e2ddd5; }
+.tarjeta { background: #fff; border: 1px solid #e6e1d9; border-radius: 10px; padding: 16px 18px; margin-bottom: 16px; }
+.tarjeta h2, .tarjeta h3 { font-size: 1.08rem; font-weight: 700; margin-bottom: 4px; }
+.sub { color: var(--gris); font-size: 0.86rem; margin-bottom: 10px; }
+.insight { border-left: 3px solid var(--azul); background: #f7faf9; padding: 7px 10px; font-size: 0.88rem; margin-top: 6px; }
+.insight b { color: var(--azul); }
+.hero { background: var(--tinta); color: #fff; border-radius: 12px; padding: 28px 26px; margin-bottom: 18px; }
+.hero h1 { font-size: 1.7rem; font-weight: 800; margin-bottom: 8px; }
+.hero p { color: #d7dde0; max-width: 820px; margin-bottom: 0; }
+.cifra { font: 700 1.6rem/1.1 "JetBrains Mono", ui-monospace, monospace; color: var(--tinta); }
+.cifra-et { color: var(--gris); font-size: 0.82rem; }
+.paso { background: #fff; border: 1px solid #e6e1d9; border-top: 3px solid var(--azul); border-radius: 8px; padding: 10px 12px; height: 100%; font-size: 0.86rem; }
+.paso.propio { border-top-color: var(--naranja); }
+.paso b { display: block; font-size: 0.78rem; letter-spacing: .04em; text-transform: uppercase; color: var(--azul); margin-bottom: 2px; }
+.paso.propio b { color: var(--naranja); }
+.flecha { display: flex; align-items: center; justify-content: center; color: var(--gris); font-size: 1.3rem; }
+.veredicto { border-radius: 8px; padding: 10px 14px; font-weight: 600; }
+.veredicto.si { background: #fbeee6; color: #8a3a10; border: 1px solid #f0c8b1; }
+pre.pseudo { background: #fbfaf7; border: 1px solid #e6e1d9; border-radius: 8px; padding: 12px; font-size: 12.5px; white-space: pre-wrap; }
+.etiqueta-num { font-family: "JetBrains Mono", ui-monospace, monospace; }
+@media (max-width: 768px) { .hero h1 { font-size: 1.35rem; } .cifra { font-size: 1.3rem; } }
+
+/* Página «Modelo A+B» (presentación) */
+.flujo-pres{display:flex;flex-wrap:wrap;gap:6px;align-items:stretch;margin:8px 0 4px}
+.paso-flujo{background:var(--bs-body-bg,#fff);border:1px solid #d9dde4;border-radius:8px;padding:6px 10px;font-size:.88rem;flex:1 1 170px}
+.paso-flujo + .paso-flujo::before{content:"→";color:#7a8394;margin-right:8px}
+.tarjeta-modelo{background:#fff;border:1px solid #dfe3ea;border-radius:10px;padding:16px 18px;height:100%;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.etiqueta{display:inline-block;font-size:.8rem;padding:2px 9px;border-radius:99px;color:#fff;font-weight:600}
+.etiqueta-a{background:#1f6f78}
+.etiqueta-b{background:#c4561b}
+.pres-lista{margin:.4em 0 0 1.1em;padding:0}
+.pres-lista li{margin:.25em 0}
+.wrap-tabla{overflow-x:auto}
+.tabla-pres{width:100%;border-collapse:collapse;font-size:.88rem;background:#fff}
+.tabla-pres th,.tabla-pres td{padding:6px 8px;border-bottom:1px solid #dfe3ea;text-align:right;white-space:nowrap}
+.tabla-pres th{white-space:normal;font-size:.82rem;background:#f3f5f8}
+.tabla-pres th:first-child,.tabla-pres td:first-child{text-align:left}
+.si{color:#2e7d4f;font-weight:600}
+.no{color:#a33;font-weight:600}
+.nota-pres{background:#fff;border-left:4px solid #1f6f78;padding:10px 14px;border-radius:6px;margin:12px 0}
+.frase-pres{background:#fff;border-left:4px solid #c4561b;padding:10px 14px;border-radius:6px;margin:8px 0;font-style:italic}
+@media (prefers-color-scheme: dark){
+  .tarjeta-modelo,.tabla-pres,.nota-pres,.frase-pres,.paso-flujo{background:#1c2129;border-color:#2d343f;color:#e8ebf1}
+  .tabla-pres th{background:#232a34}
+}
+
+/* Apartado de modelos para la presentación: pruebas y conclusiones */
+.tarjeta-prueba{background:#fff;border:1px solid #dfe3ea;border-radius:10px;padding:16px 18px;margin:16px 0}
+.hipo{font-size:.92rem;margin:.15em 0}
+.conclusion{background:#fbf3ec;border-left:4px solid #c4561b;padding:9px 13px;border-radius:6px;margin-top:10px;font-size:.95rem}
+@media (prefers-color-scheme: dark){
+  .tarjeta-prueba{background:#1c2129;border-color:#2d343f;color:#e8ebf1}
+  .conclusion{background:#2a2119;color:#e8ebf1}
+}

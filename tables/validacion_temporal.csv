@@ -1,0 +1,11 @@
+chequeo,resultado
+Formato,datetime64 (fecha-hora con segundos)
+Zona horaria,UTC según ambos portales (hora local = UTC − 5)
+Cobertura,2004-01-01 a 2020-11-30
+Frecuencia del catálogo,irregular (proceso puntual)
+Frecuencia del panel,mensual regular
+Marcas de tiempo repetidas (mismo segundo),28
+Días sin ningún sismo,"168 de 6179 (2,7 %)"
+Racha más larga sin sismos (días),16
+Meses sin sismos en el catálogo,0
+Meses objetivo del panel de entrenamiento (consecutivos),190 (huecos: 0)

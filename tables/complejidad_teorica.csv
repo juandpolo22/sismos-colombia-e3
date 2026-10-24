@@ -1,0 +1,11 @@
+componente,entrenamiento,inferencia,nota
+Ridge,O(n·p² + p³),O(m·p),solver cholesky/auto
+Lasso,O(iter · n·p),O(m·p),descenso coordenado
+Regresión logística (SAGA),O(iter · n·p),O(m·p),lineal en n y p por época
+Naive Bayes gaussiano,O(n·p),O(m·p),medias y varianzas por clase
+KNN (fuerza bruta),O(1) (almacena),O(m·n·p),el costo está en predecir
+Árbol de decisión,O(p · n log n),O(m·d),
+Random Forest,O(T · p' · n' log n'),O(m·T·d),"n' = 0,5 n (max_samples), p' = fracción de variables"
+XGBoost (hist),O(T · (n·p + bins·hojas)),O(m·T·d),histogramas de 256 cubetas
+SVR / SVM RBF,O(s² a s³) con s = 4.000,O(m · vectores soporte · p),núcleo completo: O(n²–n³) con n = 20.000 sería inviable
+SMOTE / ADASYN,O(n_min · k · p) vecinos + filas sintéticas,—,"aumenta n hasta ≈ 1,6 n (iguala clases)"

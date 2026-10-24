@@ -1,0 +1,7 @@
+regla,filas_antes,eliminadas,filas_despues
+solución revisada por analista (Revisado/manual; fuera 'automatic'),43283,33,43250
+"fecha, coordenadas y magnitud presentes",43250,0,43250
+"duplicados exactos (fecha-hora, lat, lon, magnitud)",43250,11,43239
+sismo atribuido a un departamento colombiano (fuera mar y frontera),43239,2621,40618
+magnitud >= 2.5,40618,0,40618
+desde 2004-01-01,40618,0,40618

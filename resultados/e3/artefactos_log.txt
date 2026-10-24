@@ -1,0 +1,8 @@
+Random_Forest__AG: 0.73 MB, ida y vuelta OK, 0.0125 ms/fila
+XGBoost__TPE: 0.15 MB, ida y vuelta OK, 0.0061 ms/fila
+KNN__TPE: 0.79 MB, ida y vuelta OK, 0.1449 ms/fila
+SVR__AG: 0.07 MB, ida y vuelta OK, 0.0936 ms/fila
+Arbol_de_decision__TPE: 0.01 MB, ida y vuelta OK, 0.0037 ms/fila
+Ridge__Grid: 0.0 MB, ida y vuelta OK, 0.0033 ms/fila
+Lasso__Grid: 0.0 MB, ida y vuelta OK, 0.0057 ms/fila
+A+B_v2: 3.15 MB, ida y vuelta OK, 0.3144 ms/fila

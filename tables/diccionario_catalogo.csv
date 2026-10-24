@@ -1,0 +1,14 @@
+variable,tipo,unidad,significado,se usa
+time,fecha-hora,UTC,Momento del origen del sismo,sí
+latitude,numérica continua,grados (EPSG:4326),Latitud del epicentro,sí
+longitude,numérica continua,grados (EPSG:4326),Longitud del epicentro,sí
+depth,numérica continua,km,Profundidad del hipocentro (negativa = sobre el nivel del mar),sí
+mag,numérica continua,magnitud local (Ml/MLr) o Mw,Magnitud del sismo,sí
+tipo_mag,categórica,—,"Escala de magnitud reportada (Ml, MLr_*, Mw, …)",solo calidad
+fases,numérica discreta,conteo,Número de fases sísmicas usadas en la localización,solo calidad
+rms,numérica continua,s,Residuo cuadrático medio de los tiempos de llegada,solo calidad
+gap_az,numérica continua,grados,Mayor hueco azimutal entre estaciones (cobertura de la red),solo calidad
+err_lat / err_lon / err_prof,numérica continua,km,Error de localización en cada eje,solo calidad
+depto,categórica (35 niveles),—,Departamento colombiano del epicentro,sí (EDA)
+region,texto,—,Municipio (portal histórico) o región descriptiva (portal actual),solo ETL
+estado,categórica,—,Revisado/manual (revisado por analista) o automatic,solo ETL

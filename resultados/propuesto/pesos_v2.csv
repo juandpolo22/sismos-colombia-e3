@@ -1,0 +1,15 @@
+miembro,peso_medio_prueba
+XGBoost (Grid),4.746093374185444e-05
+XGBoost (Random),6.214007757039937e-05
+XGBoost (Bayesiano (TPE)),0.0001234635380031044
+XGBoost (Genético (DEAP)),6.214007757039937e-05
+Random Forest (Grid),8.53953336350729e-06
+Random Forest (Random),0.305634302747821
+Random Forest (Bayesiano (TPE)),0.0020971105658077454
+Random Forest (Genético (DEAP)),0.2426984323548015
+KNN (Random),3.527900073185469e-06
+Ridge (Genético (DEAP)),9.492243251295782e-05
+Núcleo ZINB (propio),3.7053058129514842e-06
+B: boosting ZINB (propio),0.3891002483000473
+Persistencia,0.03430936833141392
+Ingenuo estacional,0.025754637901460896

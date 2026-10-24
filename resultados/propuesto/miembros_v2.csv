@@ -1,0 +1,11 @@
+miembro,optimizador,params
+XGBoost,Grid,"{""n_estimators"": 100, ""max_depth"": 2, ""learning_rate"": 0.3, ""subsample"": 0.75, ""colsample_bytree"": 0.75, ""min_child_weight"": 7.0710678118654755}"
+XGBoost,Random,"{""n_estimators"": 421, ""max_depth"": 4, ""learning_rate"": 0.013574683876573537, ""subsample"": 0.8245018511698693, ""colsample_bytree"": 0.7718323098639505, ""min_child_weight"": 14.91514312695567}"
+XGBoost,Bayesiano (TPE),"{""n_estimators"": 403, ""max_depth"": 4, ""learning_rate"": 0.013751268762051691, ""subsample"": 0.747802975883456, ""colsample_bytree"": 0.8053348113292444, ""min_child_weight"": 32.25554301885972}"
+XGBoost,Genético (DEAP),"{""n_estimators"": 421, ""max_depth"": 4, ""learning_rate"": 0.013574683876573537, ""subsample"": 0.8245018511698693, ""colsample_bytree"": 0.7718323098639505, ""min_child_weight"": 14.91514312695567}"
+Random Forest,Grid,"{""n_estimators"": 50, ""max_depth"": 4, ""min_samples_leaf"": 1, ""max_features"": 0.6}"
+Random Forest,Random,"{""n_estimators"": 248, ""max_depth"": 7, ""min_samples_leaf"": 3, ""max_features"": 0.34131877173541014}"
+Random Forest,Bayesiano (TPE),"{""n_estimators"": 220, ""max_depth"": 8, ""min_samples_leaf"": 6, ""max_features"": 0.9805493220948486}"
+Random Forest,Genético (DEAP),"{""n_estimators"": 157, ""max_depth"": 14, ""min_samples_leaf"": 9, ""max_features"": 0.4715030662140713}"
+KNN,Random,"{""n_neighbors"": 75, ""weights"": ""uniform""}"
+Ridge,Genético (DEAP),"{""alpha"": 0.0010000000000000002}"

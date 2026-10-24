@@ -1,0 +1,76 @@
+== computo
+== computo listo en 1.9 min
+== semillas_mod
+  reg XGBoost semilla 1: 0.3322
+  reg XGBoost semilla 2: 0.3320
+  reg XGBoost semilla 3: 0.3322
+  reg XGBoost semilla 4: 0.3321
+  reg XGBoost semilla 5: 0.3322
+  reg XGBoost semilla 42: 0.3321
+  reg Random Forest semilla 1: 0.3336
+  reg Random Forest semilla 2: 0.3340
+  reg Random Forest semilla 3: 0.3337
+  reg Random Forest semilla 4: 0.3335
+  reg Random Forest semilla 5: 0.3338
+  reg Random Forest semilla 42: 0.3337
+  reg KNN semilla 1: 0.3406
+  reg KNN semilla 2: 0.3406
+  reg KNN semilla 3: 0.3406
+  reg KNN semilla 4: 0.3406
+  reg KNN semilla 5: 0.3406
+  reg KNN semilla 42: 0.3406
+  reg Árbol de decisión semilla 1: 0.3391
+  reg Árbol de decisión semilla 2: 0.3391
+  reg Árbol de decisión semilla 3: 0.3389
+  reg Árbol de decisión semilla 4: 0.3388
+  reg Árbol de decisión semilla 5: 0.3389
+  reg Árbol de decisión semilla 42: 0.3389
+  clf XGBoost semilla 1: 0.8072
+  clf XGBoost semilla 2: 0.8074
+  clf XGBoost semilla 3: 0.8074
+  clf XGBoost semilla 4: 0.8068
+  clf XGBoost semilla 5: 0.8075
+  clf XGBoost semilla 42: 0.8075
+  clf Random Forest semilla 1: 0.8063
+  clf Random Forest semilla 2: 0.8056
+  clf Random Forest semilla 3: 0.8058
+  clf Random Forest semilla 4: 0.8055
+  clf Random Forest semilla 5: 0.8053
+  clf Random Forest semilla 42: 0.8058
+  clf SVM semilla 1: 0.7936
+  clf SVM semilla 2: 0.7943
+  clf SVM semilla 3: 0.7921
+  clf SVM semilla 4: 0.7984
+  clf SVM semilla 5: 0.7983
+  clf SVM semilla 42: 0.7966
+  clf Árbol de decisión semilla 1: 0.7983
+  clf Árbol de decisión semilla 2: 0.7983
+  clf Árbol de decisión semilla 3: 0.7983
+  clf Árbol de decisión semilla 4: 0.7983
+  clf Árbol de decisión semilla 5: 0.7983
+  clf Árbol de decisión semilla 42: 0.7983
+== semillas_mod listo en 0.9 min
+== multifidelidad
+== multifidelidad listo en 5.3 min
+== semillas_opt
+  Grid semilla 1: 0.3517 (23 s)
+  Grid semilla 2: 0.3517 (13 s)
+  Grid semilla 3: 0.3517 (12 s)
+  Grid semilla 4: 0.3517 (12 s)
+  Grid semilla 5: 0.3517 (15 s)
+  Random semilla 1: 0.3508 (38 s)
+  Random semilla 2: 0.3504 (44 s)
+  Random semilla 3: 0.3509 (42 s)
+  Random semilla 4: 0.3502 (20 s)
+  Random semilla 5: 0.3503 (20 s)
+  Bayesiano (TPE) semilla 1: 0.3502 (17 s)
+  Bayesiano (TPE) semilla 2: 0.3506 (11 s)
+  Bayesiano (TPE) semilla 3: 0.3501 (11 s)
+  Bayesiano (TPE) semilla 4: 0.3502 (20 s)
+  Bayesiano (TPE) semilla 5: 0.3502 (23 s)
+  Genético (DEAP) semilla 1: 0.3506 (22 s)
+  Genético (DEAP) semilla 2: 0.3506 (15 s)
+  Genético (DEAP) semilla 3: 0.3506 (15 s)
+  Genético (DEAP) semilla 4: 0.3502 (19 s)
+  Genético (DEAP) semilla 5: 0.3505 (20 s)
+== semillas_opt listo en 6.9 min

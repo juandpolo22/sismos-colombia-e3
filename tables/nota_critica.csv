@@ -1,0 +1,8 @@
+chequeo,resultado,lectura
+R² (escala log) del SVR lineal en prueba,"0,522","< 0,80: no hay señal de desempeño sospechoso"
+R² (conteos) del SVR lineal en prueba,"0,291","< 0,80"
+Mayor R² univariado de una predictora (cap. 9),"0,481",sin proxies del objetivo
+Auditoría de fuga (cap. 9),limpia,variables solo del pasado; partición cronológica con gap
+Validación respeta tiempo y espacio,sí,CV temporal; bloques espaciales aparte; KFold solo como contraste
+Comparación con la trivial,"mejora en RMSLE frente a la mediana 0: 0,203",no es un acierto trivial
+¿Problema trivial?,no,"R² log ≈ 0,5; enjambres no anticipables; residuos con estructura"

@@ -1,0 +1,35 @@
+[I 2026-10-23 07:45:57,163] A new study created in memory with name: no-name-64cdba31-4ea7-4a30-9499-7749528f887a
+   0 {'lr': 0.08, 'depth': 3, 'min_leaf': 50} RMSLE 0.39839 [104 s]
+   1 {'lr': 0.05514718587869894, 'depth': 6, 'min_leaf': 119} RMSLE 0.39311 [336 s]
+   2 {'lr': 0.10118287286592736, 'depth': 2, 'min_leaf': 16} RMSLE 0.39880 [403 s]
+   3 {'lr': 0.023406777359270506, 'depth': 6, 'min_leaf': 76} RMSLE 0.39886 [703 s]
+   4 {'lr': 0.13607801490147406, 'depth': 2, 'min_leaf': 271} RMSLE 0.40205 [768 s]
+   5 {'lr': 0.19057174434080473, 'depth': 3, 'min_leaf': 18} RMSLE 0.39506 [862 s]
+   6 {'lr': 0.03286475783941524, 'depth': 3, 'min_leaf': 58} RMSLE 0.39454 [981 s]
+   7 {'lr': 0.06442237870408891, 'depth': 3, 'min_leaf': 79} RMSLE 0.39384 [1094 s]
+   8 {'lr': 0.029180149047462245, 'depth': 3, 'min_leaf': 34} RMSLE 0.39603 [1223 s]
+   9 {'lr': 0.06877172495876586, 'depth': 5, 'min_leaf': 19} RMSLE 0.39964 [1446 s]
+  10 {'lr': 0.04647298007788552, 'depth': 6, 'min_leaf': 184} RMSLE 0.40070 [1687 s]
+  11 {'lr': 0.05116327040876343, 'depth': 5, 'min_leaf': 120} RMSLE 0.39437 [1893 s]
+  12 {'lr': 0.05228621314964154, 'depth': 4, 'min_leaf': 106} RMSLE 0.39335 [2056 s]
+  13 {'lr': 0.27472383889966506, 'depth': 5, 'min_leaf': 138} RMSLE 0.39562 [2216 s]
+  14 {'lr': 0.03895167784229235, 'depth': 4, 'min_leaf': 291} RMSLE 0.40213 [2377 s]
+{
+ "metodo": "Bayesiano (TPE, Optuna)",
+ "evaluaciones": 15,
+ "datos": "panel con corte 2016 (meses objetivo < 2016)",
+ "validacion": "3 pliegues temporales internos",
+ "actual": {
+  "lr": 0.08,
+  "depth": 3,
+  "min_leaf": 50
+ },
+ "rmsle_actual": 0.39839323968163437,
+ "mejor": {
+  "lr": 0.05514718587869894,
+  "depth": 6,
+  "min_leaf": 119
+ },
+ "rmsle_mejor": 0.39310520745182065,
+ "decision": "se adopta la configuración optimizada"
+}

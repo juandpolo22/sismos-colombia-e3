@@ -1,0 +1,11 @@
+tarea,prueba,resultado,comentario
+Clasificación,Friedman (7 campeones × 69 meses),"p = < 0,001",hay diferencias entre familias
+Clasificación,Nemenyi / CD,CD = 1.08; mejor rango: XGBoost,ver diagrama
+Clasificación,DeLong + Holm (3 pares),3 de 3 significativos,"δ de Cliff despreciable, pequeño"
+Regresión,"MCS 90 % (origen móvil, 7 campeones + A+B v2 + 2 líneas base)",1 en el conjunto,A+B v2 (propuesto)
+Regresión,Giacomini-White + Holm (7 campeones),7 de 7 significativos,habilidad condicional
+Regresión,"Clark-West + Holm (7 campeones, anidados)",7 de 7 significativos,corrige el anidamiento
+Regresión,"Familia DM + GW + CW (21 contrastes, Holm)",las tres significativas frente a 7 de 7,"mayor p ajustado 0,006"
+Regresión,DM-HLN + Holm (7 campeones),mejor que 7 de 7,d de Cohen frente al más cercano: 0.36
+Regresión,"SPA y Reality Check (4 versiones del modelo propuesto vs cada campeón, Holm)","p máx. SPA 0,004; RC 0,004",controla el data snooping
+Regresión,"Independencia de residuos (EL, BG, BDS, Moran)",serie mensual sin autocorrelación en 8 de 8 modelos,valida el mes como unidad de comparación
